@@ -52,9 +52,9 @@ class AccountInvoiceLine(models.Model):
         self.price_subtotal_sat = self.price_unit * self.quantity
         self.price_discount_sat = discount * self.quantity
 
-    price_subtotal_sat = fields.Monetary(string='Amount (SAT)', store=True, readonly=True, compute='_compute_price_sat', default=0.00)
-    price_tax_sat = fields.Monetary(string='Tax (SAT)', store=True, readonly=True, compute='_compute_price_sat', default=0.00)
-    price_discount_sat = fields.Monetary(string='Discount (SAT)', store=True, readonly=True, compute='_compute_price_sat', default=0.00)
+    price_subtotal_sat = fields.Monetary(string='Amount (SAT)', readonly=True, compute='_compute_price_sat', default=0.00)
+    price_tax_sat = fields.Monetary(string='Tax (SAT)', readonly=True, compute='_compute_price_sat', default=0.00)
+    price_discount_sat = fields.Monetary(string='Discount (SAT)', readonly=True, compute='_compute_price_sat', default=0.00)
     numero_pedimento_sat = fields.Char(string='Numero de Pedimento', help="Informacion Aduanera. Numero de Pedimento")
 
 class AccountInvoice(models.Model):
@@ -104,9 +104,9 @@ class AccountInvoice(models.Model):
     uuid_relacionado_id = fields.Many2one('account.invoice', string=u'UUID Relacionado', domainf=[("type", "in", ("out_invoice", "out_refund") ), ("timbrada", "=", True), ("uuid", "!=", None)])
     tiporelacion_id = fields.Many2one('cfd_mx.tiporelacion', string=u'Tipo de Relacion', copy="False")
 
-    price_subtotal_sat = fields.Monetary(string='Amount (SAT)', store=True, readonly=True, compute='_compute_price_sat')
-    price_tax_sat = fields.Monetary(string='Tax (SAT)', store=True, readonly=True, compute='_compute_price_sat')
-    price_discount_sat = fields.Monetary(string='Discount (SAT)', store=True, readonly=True, compute='_compute_price_sat')
+    price_subtotal_sat = fields.Monetary(string='Amount (SAT)', readonly=True, compute='_compute_price_sat')
+    price_tax_sat = fields.Monetary(string='Tax (SAT)', readonly=True, compute='_compute_price_sat')
+    price_discount_sat = fields.Monetary(string='Discount (SAT)', readonly=True, compute='_compute_price_sat')
     xml_cfdi_sinacento = fields.Boolean(related="partner_id.xml_cfdi_sinacento", string='XML CFDI sin acentos')
     internal_number = fields.Char(string='Invoice Number', size=32, readonly=True, copy=False, help="Unique number of the invoice, computed automatically when the invoice is created.")
     usocfdi_id = fields.Many2one('cfd_mx.usocfdi', string="Uso de Comprobante CFDI", required=False)
