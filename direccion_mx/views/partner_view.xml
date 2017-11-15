@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record model="ir.ui.view" id="view_partner_colonia_form">
+            <field name="name">view_partner_colonia_form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <data>
+                    <field name="street2" position="attributes">
+                        <attribute name="invisible">1</attribute>
+                    </field>
+                    <field name="city" position="attributes">
+                        <attribute name="invisible">1</attribute>
+                    </field>
+
+                    <field name="street" position="replace" >
+                        <div id="street">
+                            <label for="street"/>
+                            <field name="street" placeholder="Street..." 
+                                class="o_address_street" style="width:70%%" 
+                                attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)]}"/>
+                        </div>
+                    </field>
+                    <field name="street2" position="after">
+                        <div id="colonia_id">
+                            <label for="colonia_id"/>
+                            <field name="colonia_id" placeholder="Colonia... " 
+                                class="o_address_city" style="width:70%%" 
+                                on_change="onchange_colonia(colonia_id)"
+                                domain="[('municipio_id','=',municipio_id)]"
+                                attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)]}" />
+                        </div>
+                        <div id="ciudad_id">
+                            <label for="ciudad_id"/>
+                            <field name="ciudad_id" placeholder="Ciudad... " 
+                                class="o_address_city" style="width:70%%"
+                                on_change="onchange_ciudad(ciudad_id)"
+                                domain="[('state_id','=',state_id)]"
+                                attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)]}" />
+                        </div>
+                        <div id="municipio_id">
+                            <label for="municipio_id"/>
+                            <field name="municipio_id" placeholder="Municipio... " 
+                                class="o_address_city" style="width:70%%" 
+                                on_change="onchange_municipio(municipio_id)" 
+                                domain="[('state_id','=',state_id)]"
+                                attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)]}" />
+                        </div>
+                    </field>
+                    <field name="state_id" position="replace">
+                        <div id="state_id">
+                            <label for="state_id"/>
+                            <field name="state_id" class="o_address_city" style="width:70%%"
+                                placeholder="State" options='{"no_open": True}' 
+                                on_change="onchange_state(state_id)"
+                                attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)]}" 
+                                context="{'country_id': country_id, 'zip': zip}" />
+                        </div>
+                    </field>
+                    <field name="zip" position="replace">
+                        <div id="zip">
+                            <label for="zip"/>
+                            <field name="zip" placeholder="ZIP" class="o_address_city" 
+                                style="width:40%%"
+                                on_change="onchange_zip(zip)"
+                                attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)]}"/>
+                        </div>
+                    </field>
+                    <field name="country_id" position="replace">
+                        <div id="country_id">
+                            <label for="country_id"/>
+                            <field name="country_id" placeholder="Country" class="o_address_country" style="width:70%%"
+                                options='{"no_open": True, "no_create": True}'
+                                attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)]}"/>
+                        </div>
+                    </field>
+                </data>
+            </field>
+        </record>
+
+
+        <record id="view_partner_address_dir_form" model="ir.ui.view">
+            <field name="name">res.partner.dir.address.form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_address_form"/>
+            <field name="arch" type="xml">
+                <data>
+                    <field name="street2" position="attributes">
+                        <attribute name="invisible">True</attribute>
+                    </field>
+                    <field name="city" position="attributes">
+                        <attribute name="invisible">True</attribute>
+                    </field>
+                    <div class="o_address_format" position="replace">
+                        <div class="o_address_format">
+                            <div id="street">
+                                <label for="street"/>
+                                <field name="street" placeholder="Street..." 
+                                    class="o_address_street" style="width:70%%"  />
+                            </div>
+                            <div id="colonia_id">
+                                <label for="colonia_id"/>
+                                <field name="colonia_id" placeholder="Colonia... " 
+                                    class="o_address_city" style="width:70%%" 
+                                    on_change="onchange_colonia(colonia_id)"
+                                    domain="[('municipio_id','=',municipio_id)]" />
+                            </div>
+                            <div id="ciudad_id">
+                                <label for="ciudad_id"/>
+                                <field name="ciudad_id" placeholder="Ciudad... " 
+                                    class="o_address_city" style="width:70%%"
+                                    on_change="onchange_ciudad(ciudad_id)"
+                                    domain="[('state_id','=',state_id)]" />
+                            </div>
+                            <div id="municipio_id">
+                                <label for="municipio_id"/>
+                                <field name="municipio_id" placeholder="Municipio... " 
+                                    class="o_address_city" style="width:70%%" 
+                                    on_change="onchange_municipio(municipio_id)" 
+                                    domain="[('state_id','=',state_id)]" />
+                            </div>
+                            <div id="state_id">
+                                <label for="state_id"/>
+                                <field name="state_id" class="o_address_city" style="width:70%%"
+                                    placeholder="State" options='{"no_open": True}' 
+                                    on_change="onchange_state(state_id)"
+                                    context="{'country_id': country_id, 'zip': zip}" />
+                            </div>
+                            <div id="zip">
+                                <label for="zip"/>
+                                <field name="zip" placeholder="ZIP" class="o_address_city" 
+                                    style="width:40%%"
+                                    on_change="onchange_zip(zip)" />
+                            </div>
+                            <div id="country_id">
+                                <label for="country_id"/>
+                                <field name="country_id" placeholder="Country" class="o_address_country" style="width:70%%"
+                                    options='{"no_open": True, "no_create": True}' />
+                            </div>                        
+                        </div>
+                    </div>
+                </data>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="res_partner_kanban_dir_view">
+            <field name="name">res.partner.dir.kanban</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.res_partner_kanban_view"/>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="/kanban/field[@name='street2']" position="replace">
+                        <field name="colonia_id" />
+                    </xpath>
+                    <xpath expr="/kanban/field[@name='city']" position="replace">
+                        <field name="ciudad_id" />
+                        <field name="municipio_id" />
+                    </xpath>
+                    <xpath expr="/kanban/templates/t/div/div[@class='oe_kanban_details']/ul" position="inside">
+                        <li t-if="record.colonia_id.raw_value and record.municipio_id.raw_value"><field name="colonia_id"/>, <field name="zip"/></li>
+                        <li t-if="record.municipio_id.raw_value and record.country_id.raw_value"><field name="municipio_id"/>, <field name="state_id"/>, <field name="country_id"/></li>
+                    </xpath>
+                </data>
+            </field>
+        </record>
+        
+    </data>
+</openerp>

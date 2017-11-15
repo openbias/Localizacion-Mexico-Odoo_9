@@ -1,0 +1,11 @@
+<odoo>
+    <data>
+
+        <menuitem
+            name="Localización México"
+            parent="account.menu_finance"
+            id="menu_localizacion_mexico_root"
+            sequence="100" />
+
+    </data>
+</odoo>

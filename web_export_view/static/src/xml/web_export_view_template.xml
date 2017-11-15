@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates id="template" xml:space="preserve">
+    <t t-name="AddExportViewMain">
+        <li class="oe_sidebar_export_view_xls" data-section="other"> Export to Excel</li>
+    </t>
+
+
+    <!-- 
+    <t t-extend="ControlPanel">
+        <t t-jquery="div.oe-cp-switch-buttons" t-operation="before">
+            <li id="excel_icon" 
+                type="button" 
+                class="btn btn-default fa fa-file-excel-o oe-list-xlsx"
+                title="Excel"/>
+            <li id="pdf_icon" 
+                type="button" 
+                class="btn btn-default fa fa-file-pdf-o oe-list-pdf"
+                style="display:none;" 
+                title="Excel"/>
+        </t>
+    </t>
+    <t t-name="AddExportExcel">
+        <div class="container-fluid">
+            <li id="excel_icon" 
+                type="button" 
+                class="btn btn-default fa fa-file-excel-o oe-view-list-xlsx"
+                title="Excel"/>
+        </div>
+    </t>
+    -->
+
+
+</templates>

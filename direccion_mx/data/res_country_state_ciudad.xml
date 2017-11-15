@@ -1,0 +1,2584 @@
+<?xml version="1.0" encoding="utf-8"?><openerp>
+  <data noupdate="1">
+    <record id="ciudad_344" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">Ruiz</field>
+    </record>
+    <record id="ciudad_345" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">Compostela</field>
+    </record>
+    <record id="ciudad_346" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">Las Varas</field>
+    </record>
+    <record id="ciudad_347" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">La peñita de Jaltemba</field>
+    </record>
+    <record id="ciudad_340" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">Acaponeta</field>
+    </record>
+    <record id="ciudad_341" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">Tecuala</field>
+    </record>
+    <record id="ciudad_342" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">Francisco I. Madero (Puga)</field>
+    </record>
+    <record id="ciudad_343" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">Villa Hidalgo (El Nuevo)</field>
+    </record>
+    <record id="ciudad_348" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">Bucerías</field>
+    </record>
+    <record id="ciudad_349" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">San Blas</field>
+    </record>
+    <record id="ciudad_73" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Reforma</field>
+    </record>
+    <record id="ciudad_72" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Acala</field>
+    </record>
+    <record id="ciudad_71" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">San Cristóbal de las Casas</field>
+    </record>
+    <record id="ciudad_70" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Chiapa de Corzo</field>
+    </record>
+    <record id="ciudad_77" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Comitán de Domínguez</field>
+    </record>
+    <record id="ciudad_76" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Palenque</field>
+    </record>
+    <record id="ciudad_75" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Ocosingo</field>
+    </record>
+    <record id="ciudad_74" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Pichucalco</field>
+    </record>
+    <record id="ciudad_79" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Venustiano Carranza</field>
+    </record>
+    <record id="ciudad_78" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Las Margaritas</field>
+    </record>
+    <record id="ciudad_99" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chih"/>
+      <field name="name">Juárez</field>
+    </record>
+    <record id="ciudad_529" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Ciudad Victoria</field>
+    </record>
+    <record id="ciudad_283" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Cuautitlán</field>
+    </record>
+    <record id="ciudad_282" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Cuautitlán Izcalli</field>
+    </record>
+    <record id="ciudad_285" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Tultitlán de Mariano Escobedo</field>
+    </record>
+    <record id="ciudad_284" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Melchor Ocampo</field>
+    </record>
+    <record id="ciudad_287" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Ecatepec de Morelos</field>
+    </record>
+    <record id="ciudad_286" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Santa Maria Tultepec</field>
+    </record>
+    <record id="ciudad_91" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Cacahoatán</field>
+    </record>
+    <record id="ciudad_521" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Huimanguillo</field>
+    </record>
+    <record id="ciudad_522" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Cárdenas</field>
+    </record>
+    <record id="ciudad_92" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Motozintla de Mendoza</field>
+    </record>
+    <record id="ciudad_524" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Cunduacán</field>
+    </record>
+    <record id="ciudad_94" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chih"/>
+      <field name="name">Cuauhtémoc</field>
+    </record>
+    <record id="ciudad_97" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chih"/>
+      <field name="name">Nuevo Casas Grandes</field>
+    </record>
+    <record id="ciudad_96" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chih"/>
+      <field name="name">Bachíniva</field>
+    </record>
+    <record id="ciudad_111" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_dgo"/>
+      <field name="name">Peñón Blanco</field>
+    </record>
+    <record id="ciudad_442" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">Atlixco</field>
+    </record>
+    <record id="ciudad_113" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_dgo"/>
+      <field name="name">Nombre de Dios</field>
+    </record>
+    <record id="ciudad_440" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">Teziutlan</field>
+    </record>
+    <record id="ciudad_447" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">Ciudad Serdán</field>
+    </record>
+    <record id="ciudad_446" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">Tecamachalco</field>
+    </record>
+    <record id="ciudad_117" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_dgo"/>
+      <field name="name">Ciudad Lerdo</field>
+    </record>
+    <record id="ciudad_444" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">Acatlán de Osorio</field>
+    </record>
+    <record id="ciudad_119" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Guanajuato</field>
+    </record>
+    <record id="ciudad_118" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_dgo"/>
+      <field name="name">Santa María del Oro</field>
+    </record>
+    <record id="ciudad_449" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_qro"/>
+      <field name="name">Querétaro</field>
+    </record>
+    <record id="ciudad_448" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">Tehuacan</field>
+    </record>
+    <record id="ciudad_599" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Alvarado</field>
+    </record>
+    <record id="ciudad_598" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Tierra Blanca</field>
+    </record>
+    <record id="ciudad_595" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">General Miguel Alemán (Potrero Nuevo)</field>
+    </record>
+    <record id="ciudad_594" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Atoyac</field>
+    </record>
+    <record id="ciudad_597" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Tezonapa</field>
+    </record>
+    <record id="ciudad_596" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Paso del Macho</field>
+    </record>
+    <record id="ciudad_591" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Huiloapan de Cuauhtémoc</field>
+    </record>
+    <record id="ciudad_590" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Río Blanco</field>
+    </record>
+    <record id="ciudad_593" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Paraje Nuevo</field>
+    </record>
+    <record id="ciudad_592" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Cuitláhuac</field>
+    </record>
+    <record id="ciudad_238" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">San Julián</field>
+    </record>
+    <record id="ciudad_239" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Arandas</field>
+    </record>
+    <record id="ciudad_234" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Ahualulco de Mercado</field>
+    </record>
+    <record id="ciudad_235" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">San Juan de los Lagos</field>
+    </record>
+    <record id="ciudad_236" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Jalostotitlán</field>
+    </record>
+    <record id="ciudad_237" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">San Miguel el Alto</field>
+    </record>
+    <record id="ciudad_230" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Tequila</field>
+    </record>
+    <record id="ciudad_231" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Magdalena</field>
+    </record>
+    <record id="ciudad_232" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Etzatlán</field>
+    </record>
+    <record id="ciudad_233" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Ameca</field>
+    </record>
+    <record id="ciudad_142" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Empalme Escobedo (Escobedo)</field>
+    </record>
+    <record id="ciudad_536" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Nuevo Laredo</field>
+    </record>
+    <record id="ciudad_493" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Angostura</field>
+    </record>
+    <record id="ciudad_221" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Acatlán de Juárez</field>
+    </record>
+    <record id="ciudad_279" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Tlalnepantla de Baz</field>
+    </record>
+    <record id="ciudad_220" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">El Quince (San José el Quince)</field>
+    </record>
+    <record id="ciudad_183" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Atoyac de Álvarez</field>
+    </record>
+    <record id="ciudad_300" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Juchitepec de Mariano Riva Palacio</field>
+    </record>
+    <record id="ciudad_301" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Ciudad Nezahualcoyotl</field>
+    </record>
+    <record id="ciudad_302" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Morelia</field>
+    </record>
+    <record id="ciudad_303" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Puruándiro</field>
+    </record>
+    <record id="ciudad_304" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Zacapu</field>
+    </record>
+    <record id="ciudad_305" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Cuitzeo del Porvenir</field>
+    </record>
+    <record id="ciudad_306" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Zinapécuaro de Figueroa</field>
+    </record>
+    <record id="ciudad_307" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Sahuayo de Morelos</field>
+    </record>
+    <record id="ciudad_308" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Yurécuaro</field>
+    </record>
+    <record id="ciudad_309" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">La piedad de Cabadas</field>
+    </record>
+    <record id="ciudad_229" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Colotlán</field>
+    </record>
+    <record id="ciudad_228" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Huejuquilla el Alto</field>
+    </record>
+    <record id="ciudad_627" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Zacatecas</field>
+    </record>
+    <record id="ciudad_626" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_yuc"/>
+      <field name="name">Ticul</field>
+    </record>
+    <record id="ciudad_625" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_yuc"/>
+      <field name="name">Valladolid</field>
+    </record>
+    <record id="ciudad_624" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_yuc"/>
+      <field name="name">Tizimín</field>
+    </record>
+    <record id="ciudad_623" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_yuc"/>
+      <field name="name">Motul de Carrillo Puerto</field>
+    </record>
+    <record id="ciudad_622" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_yuc"/>
+      <field name="name">Mérida</field>
+    </record>
+    <record id="ciudad_621" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Las Choapas</field>
+    </record>
+    <record id="ciudad_620" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Minatitlán</field>
+    </record>
+    <record id="ciudad_629" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Río Grande</field>
+    </record>
+    <record id="ciudad_628" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Juan Aldama</field>
+    </record>
+    <record id="ciudad_159" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Tixtla de Guerrero</field>
+    </record>
+    <record id="ciudad_158" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Ocotito</field>
+    </record>
+    <record id="ciudad_409" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Miahuatlán de Porfirio Díaz</field>
+    </record>
+    <record id="ciudad_408" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Blas Atempa</field>
+    </record>
+    <record id="ciudad_407" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Santo Domingo Tehuantepec</field>
+    </record>
+    <record id="ciudad_406" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Salina Cruz</field>
+    </record>
+    <record id="ciudad_405" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">El Camarón</field>
+    </record>
+    <record id="ciudad_404" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Pedro Totolapa</field>
+    </record>
+    <record id="ciudad_403" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Pablo Villa de Mitla</field>
+    </record>
+    <record id="ciudad_402" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Tlacolula de Matamoros</field>
+    </record>
+    <record id="ciudad_401" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Lagunas</field>
+    </record>
+    <record id="ciudad_400" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Matías Romero Avendaño</field>
+    </record>
+    <record id="ciudad_399" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Chahuites</field>
+    </record>
+    <record id="ciudad_398" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Pedro Tapanatepec</field>
+    </record>
+    <record id="ciudad_397" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Francisco Ixhuatán</field>
+    </record>
+    <record id="ciudad_396" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Unión Hidalgo</field>
+    </record>
+    <record id="ciudad_395" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Ciudad Ixtepec</field>
+    </record>
+    <record id="ciudad_394" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Juchitán (Juchitán de Zaragoza)</field>
+    </record>
+    <record id="ciudad_393" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Heroica Ciudad de Tlaxiaco</field>
+    </record>
+    <record id="ciudad_392" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Sebastián Tecomaxtlahuaca</field>
+    </record>
+    <record id="ciudad_391" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Santiago Juxtlahuaca</field>
+    </record>
+    <record id="ciudad_390" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Asunción Nochixtlán</field>
+    </record>
+    <record id="ciudad_28" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bcs"/>
+      <field name="name">Guerrero Negro</field>
+    </record>
+    <record id="ciudad_29" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_camp"/>
+      <field name="name">San Francisco de Campeche</field>
+    </record>
+    <record id="ciudad_20" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bcs"/>
+      <field name="name">San José del Cabo</field>
+    </record>
+    <record id="ciudad_21" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bcs"/>
+      <field name="name">Cabo San Lucas</field>
+    </record>
+    <record id="ciudad_22" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bcs"/>
+      <field name="name">Ciudad Constitución</field>
+    </record>
+    <record id="ciudad_23" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bcs"/>
+      <field name="name">Puerto Adolfo López Mateos</field>
+    </record>
+    <record id="ciudad_24" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bcs"/>
+      <field name="name">Loreto</field>
+    </record>
+    <record id="ciudad_25" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bcs"/>
+      <field name="name">Heroica Mulegé</field>
+    </record>
+    <record id="ciudad_26" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bcs"/>
+      <field name="name">San Ignacio</field>
+    </record>
+    <record id="ciudad_27" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bcs"/>
+      <field name="name">Villa Alberto Andrés Alvarado Arámburo</field>
+    </record>
+    <record id="ciudad_490" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Higuera de Zaragoza</field>
+    </record>
+    <record id="ciudad_491" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Topolobampo</field>
+    </record>
+    <record id="ciudad_492" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Guamúchil</field>
+    </record>
+    <record id="ciudad_479" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Tamazunchale</field>
+    </record>
+    <record id="ciudad_494" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Choix</field>
+    </record>
+    <record id="ciudad_495" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">San Blas</field>
+    </record>
+    <record id="ciudad_496" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Sinaloa de Leyva</field>
+    </record>
+    <record id="ciudad_497" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Estación Naranjo</field>
+    </record>
+    <record id="ciudad_498" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Mazatlán</field>
+    </record>
+    <record id="ciudad_499" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Villa Unión</field>
+    </record>
+    <record id="ciudad_278" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Naucalpan de Juárez</field>
+    </record>
+    <record id="ciudad_281" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Tepotzotlán</field>
+    </record>
+    <record id="ciudad_98" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chih"/>
+      <field name="name">Madera</field>
+    </record>
+    <record id="ciudad_270" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Amatepec</field>
+    </record>
+    <record id="ciudad_271" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Xonacatlán</field>
+    </record>
+    <record id="ciudad_272" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">San Mateo Atenco</field>
+    </record>
+    <record id="ciudad_273" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Metepec</field>
+    </record>
+    <record id="ciudad_274" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Capulhuac</field>
+    </record>
+    <record id="ciudad_275" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Ocoyoacac</field>
+    </record>
+    <record id="ciudad_276" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Huixquilucan de Degollado</field>
+    </record>
+    <record id="ciudad_277" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Ciudad Adolfo López Mateos</field>
+    </record>
+    <record id="ciudad_573" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Coatzintla</field>
+    </record>
+    <record id="ciudad_572" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Cazones de Herrera</field>
+    </record>
+    <record id="ciudad_478" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Tamasopo</field>
+    </record>
+    <record id="ciudad_570" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Túxpam de Rodríguez Cano</field>
+    </record>
+    <record id="ciudad_577" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">San Rafael</field>
+    </record>
+    <record id="ciudad_576" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Gutiérrez Zamora</field>
+    </record>
+    <record id="ciudad_575" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Papantla de Olarte</field>
+    </record>
+    <record id="ciudad_574" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Poza Rica de Hidalgo</field>
+    </record>
+    <record id="ciudad_472" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Cerritos</field>
+    </record>
+    <record id="ciudad_473" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Villa de Reyes</field>
+    </record>
+    <record id="ciudad_470" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Ciudad del Maíz</field>
+    </record>
+    <record id="ciudad_471" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Cárdenas</field>
+    </record>
+    <record id="ciudad_476" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Rioverde</field>
+    </record>
+    <record id="ciudad_579" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Altotonga</field>
+    </record>
+    <record id="ciudad_474" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Santa María del Río</field>
+    </record>
+    <record id="ciudad_475" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Tierra Nueva</field>
+    </record>
+    <record id="ciudad_578" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Tlapacoyan</field>
+    </record>
+    <record id="ciudad_280" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Villa Nicolás Romero</field>
+    </record>
+    <record id="ciudad_477" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Fracción el Refugio</field>
+    </record>
+    <record id="ciudad_520" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Comalcalco</field>
+    </record>
+    <record id="ciudad_288" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Zumpango</field>
+    </record>
+    <record id="ciudad_93" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chih"/>
+      <field name="name">Chihuahua</field>
+    </record>
+    <record id="ciudad_523" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Paraíso</field>
+    </record>
+    <record id="ciudad_95" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chih"/>
+      <field name="name">Colonia Anáhuac</field>
+    </record>
+    <record id="ciudad_525" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Macuspana</field>
+    </record>
+    <record id="ciudad_526" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Teapa</field>
+    </record>
+    <record id="ciudad_527" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Tenosique de Pino Suárez</field>
+    </record>
+    <record id="ciudad_443" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">Izúcar de Matamoros</field>
+    </record>
+    <record id="ciudad_110" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_dgo"/>
+      <field name="name">Santiago Papasquiaro</field>
+    </record>
+    <record id="ciudad_441" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">San Martín Texmelucan de Labastida</field>
+    </record>
+    <record id="ciudad_112" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_dgo"/>
+      <field name="name">Francisco I. Madero</field>
+    </record>
+    <record id="ciudad_90" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Puerto Madero (San Benito)</field>
+    </record>
+    <record id="ciudad_115" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_dgo"/>
+      <field name="name">El Salto</field>
+    </record>
+    <record id="ciudad_114" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_dgo"/>
+      <field name="name">Vicente Guerrero</field>
+    </record>
+    <record id="ciudad_445" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">Tepeaca</field>
+    </record>
+    <record id="ciudad_528" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Emiliano Zapata</field>
+    </record>
+    <record id="ciudad_116" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_dgo"/>
+      <field name="name">Gómez Palacio</field>
+    </record>
+    <record id="ciudad_146" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Valle de Santiago</field>
+    </record>
+    <record id="ciudad_411" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Santa María Huatulco</field>
+    </record>
+    <record id="ciudad_144" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Villagrán</field>
+    </record>
+    <record id="ciudad_359" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">García</field>
+    </record>
+    <record id="ciudad_358" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">Ciénega de Flores</field>
+    </record>
+    <record id="ciudad_353" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">Ahuacatlán</field>
+    </record>
+    <record id="ciudad_352" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">Jala</field>
+    </record>
+    <record id="ciudad_351" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">San pedro Lagunillas</field>
+    </record>
+    <record id="ciudad_350" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">Xalisco</field>
+    </record>
+    <record id="ciudad_357" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">Ciudad Sabinas Hidalgo</field>
+    </record>
+    <record id="ciudad_356" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">Anáhuac</field>
+    </record>
+    <record id="ciudad_355" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">Monterrey</field>
+    </record>
+    <record id="ciudad_143" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Santa Cruz Juventino Rosas</field>
+    </record>
+    <record id="ciudad_140" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Apaseo el Grande</field>
+    </record>
+    <record id="ciudad_417" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Santa Lucia del Camino</field>
+    </record>
+    <record id="ciudad_64" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_col"/>
+      <field name="name">Tecoman</field>
+    </record>
+    <record id="ciudad_65" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_col"/>
+      <field name="name">Manzanillo</field>
+    </record>
+    <record id="ciudad_66" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_col"/>
+      <field name="name">Ciudad de Armería</field>
+    </record>
+    <record id="ciudad_67" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_col"/>
+      <field name="name">Ciudad de Villa de Álvarez</field>
+    </record>
+    <record id="ciudad_60" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">San Pedro</field>
+    </record>
+    <record id="ciudad_61" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Francisco I. Madero (Chávez)</field>
+    </record>
+    <record id="ciudad_62" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Parras de la Fuente</field>
+    </record>
+    <record id="ciudad_63" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_col"/>
+      <field name="name">Colima</field>
+    </record>
+    <record id="ciudad_68" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Tuxtla Gutiérrez</field>
+    </record>
+    <record id="ciudad_69" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Ocozocoautla de Espinosa</field>
+    </record>
+    <record id="ciudad_618" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Coatzacoalcos</field>
+    </record>
+    <record id="ciudad_619" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Agua dulce</field>
+    </record>
+    <record id="ciudad_289" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Tequixquiac</field>
+    </record>
+    <record id="ciudad_617" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Cuichapa</field>
+    </record>
+    <record id="ciudad_614" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Acayucan</field>
+    </record>
+    <record id="ciudad_615" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Jáltipan de Morelos</field>
+    </record>
+    <record id="ciudad_612" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Juan Díaz Covarrubias</field>
+    </record>
+    <record id="ciudad_613" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Catemaco</field>
+    </record>
+    <record id="ciudad_610" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Santiago Tuxtla</field>
+    </record>
+    <record id="ciudad_611" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Ángel R. Cabada</field>
+    </record>
+    <record id="ciudad_88" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Huixtla</field>
+    </record>
+    <record id="ciudad_89" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Tapachula de Córdova y Ordóñez</field>
+    </record>
+    <record id="ciudad_539" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Ciudad Gustavo Díaz Ordaz</field>
+    </record>
+    <record id="ciudad_538" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Nueva Ciudad Guerrero</field>
+    </record>
+    <record id="ciudad_82" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Jiquipilas</field>
+    </record>
+    <record id="ciudad_83" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Arriaga</field>
+    </record>
+    <record id="ciudad_80" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Las Rosas</field>
+    </record>
+    <record id="ciudad_81" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Cintalapa de Figueroa</field>
+    </record>
+    <record id="ciudad_533" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Soto la Marina</field>
+    </record>
+    <record id="ciudad_532" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">San Fernando</field>
+    </record>
+    <record id="ciudad_531" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Valle Hermoso</field>
+    </record>
+    <record id="ciudad_85" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Tonalá</field>
+    </record>
+    <record id="ciudad_436" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">Amozoc</field>
+    </record>
+    <record id="ciudad_125" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Ciudad Manuel Doblado</field>
+    </record>
+    <record id="ciudad_434" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">San Pedro Cholula</field>
+    </record>
+    <record id="ciudad_127" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Salamanca</field>
+    </record>
+    <record id="ciudad_120" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Silao</field>
+    </record>
+    <record id="ciudad_433" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">Cuautlancingo</field>
+    </record>
+    <record id="ciudad_430" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Puerto Escondido</field>
+    </record>
+    <record id="ciudad_123" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">San Francisco del Rincón</field>
+    </record>
+    <record id="ciudad_128" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Pénjamo</field>
+    </record>
+    <record id="ciudad_129" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Cuerámaro</field>
+    </record>
+    <record id="ciudad_438" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">Huauchinango</field>
+    </record>
+    <record id="ciudad_439" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">Zacatlán</field>
+    </record>
+    <record id="ciudad_11" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bc"/>
+      <field name="name">Mexicali</field>
+    </record>
+    <record id="ciudad_10" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ags"/>
+      <field name="name">Jesús María </field>
+    </record>
+    <record id="ciudad_13" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bc"/>
+      <field name="name">San Felipe</field>
+    </record>
+    <record id="ciudad_12" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bc"/>
+      <field name="name">Tecate</field>
+    </record>
+    <record id="ciudad_15" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bc"/>
+      <field name="name">Playas de Rosarito</field>
+    </record>
+    <record id="ciudad_14" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bc"/>
+      <field name="name">Tijuana</field>
+    </record>
+    <record id="ciudad_17" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bc"/>
+      <field name="name">Ensenada</field>
+    </record>
+    <record id="ciudad_16" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bc"/>
+      <field name="name">Rodolfo Sánchez T. (Maneadero)</field>
+    </record>
+    <record id="ciudad_19" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bcs"/>
+      <field name="name">Todos Santos</field>
+    </record>
+    <record id="ciudad_18" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_bcs"/>
+      <field name="name">La Paz</field>
+    </record>
+    <record id="ciudad_223" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Zacoalco de Torres</field>
+    </record>
+    <record id="ciudad_222" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Villa Corona</field>
+    </record>
+    <record id="ciudad_548" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Xicoténcatl</field>
+    </record>
+    <record id="ciudad_549" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Ciudad Mante</field>
+    </record>
+    <record id="ciudad_227" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Poncitlán</field>
+    </record>
+    <record id="ciudad_226" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Ajijic</field>
+    </record>
+    <record id="ciudad_225" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Chapala</field>
+    </record>
+    <record id="ciudad_224" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Jocotepec</field>
+    </record>
+    <record id="ciudad_542" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Ciudad Río Bravo</field>
+    </record>
+    <record id="ciudad_543" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Tampico</field>
+    </record>
+    <record id="ciudad_540" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Ciudad Camargo</field>
+    </record>
+    <record id="ciudad_541" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Reynosa</field>
+    </record>
+    <record id="ciudad_546" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">González</field>
+    </record>
+    <record id="ciudad_547" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Estación Manuel (Úrsulo Galván)</field>
+    </record>
+    <record id="ciudad_544" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Ciudad Madero</field>
+    </record>
+    <record id="ciudad_545" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Altamira</field>
+    </record>
+    <record id="ciudad_467" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Ébano</field>
+    </record>
+    <record id="ciudad_325" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Pátzcuaro</field>
+    </record>
+    <record id="ciudad_36" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_camp"/>
+      <field name="name">Hecelchakán</field>
+    </record>
+    <record id="ciudad_641" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Jerez de García Salinas</field>
+    </record>
+    <record id="ciudad_640" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Valparaíso</field>
+    </record>
+    <record id="ciudad_643" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Jalpa</field>
+    </record>
+    <record id="ciudad_314" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Cotija de la Paz</field>
+    </record>
+    <record id="ciudad_313" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Jacona de Plancarte</field>
+    </record>
+    <record id="ciudad_644" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Nochistlán de Mejía</field>
+    </record>
+    <record id="ciudad_311" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Zamora de Hidalgo</field>
+    </record>
+    <record id="ciudad_310" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Jiquilpan de Juárez</field>
+    </record>
+    <record id="ciudad_319" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Ciudad Lázaro Cárdenas</field>
+    </record>
+    <record id="ciudad_318" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Apatzingán de la Constitución</field>
+    </record>
+    <record id="ciudad_571" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Tihuatlán</field>
+    </record>
+    <record id="ciudad_316" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Paracho de Verduzco</field>
+    </record>
+    <record id="ciudad_160" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Ayutla de los Libres</field>
+    </record>
+    <record id="ciudad_317" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Los Reyes de Salgado</field>
+    </record>
+    <record id="ciudad_162" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Tierra Colorada</field>
+    </record>
+    <record id="ciudad_163" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">San Marcos</field>
+    </record>
+    <record id="ciudad_164" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Iguala de la Independencia</field>
+    </record>
+    <record id="ciudad_165" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Huitzuco</field>
+    </record>
+    <record id="ciudad_166" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Tepecoacuilco de Trujano</field>
+    </record>
+    <record id="ciudad_167" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Zumpango del Río</field>
+    </record>
+    <record id="ciudad_168" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Taxco de Alarcón</field>
+    </record>
+    <record id="ciudad_169" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Buenavista de Cuellar</field>
+    </record>
+    <record id="ciudad_315" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Uruapan</field>
+    </record>
+    <record id="ciudad_362" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">San Pedro Garza García</field>
+    </record>
+    <record id="ciudad_363" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">San Nicolás de los Garza</field>
+    </record>
+    <record id="ciudad_360" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">Ciudad General Escobedo</field>
+    </record>
+    <record id="ciudad_361" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">Ciudad Santa Catarina</field>
+    </record>
+    <record id="ciudad_366" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">Ciudad Benito Juárez</field>
+    </record>
+    <record id="ciudad_367" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">Santiago</field>
+    </record>
+    <record id="ciudad_364" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">Ciudad Apodaca</field>
+    </record>
+    <record id="ciudad_365" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">Guadalupe</field>
+    </record>
+    <record id="ciudad_645" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Moyahua de Estrada</field>
+    </record>
+    <record id="ciudad_368" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">El cercado</field>
+    </record>
+    <record id="ciudad_369" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">Cadereyta Jiménez</field>
+    </record>
+    <record id="ciudad_312" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Tangancícuaro de Arista</field>
+    </record>
+    <record id="ciudad_59" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Cuatro Ciénegas de Carranza</field>
+    </record>
+    <record id="ciudad_58" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Nadadores</field>
+    </record>
+    <record id="ciudad_55" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Torreón</field>
+    </record>
+    <record id="ciudad_54" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Nueva Rosita</field>
+    </record>
+    <record id="ciudad_57" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Viesca</field>
+    </record>
+    <record id="ciudad_56" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Matamoros</field>
+    </record>
+    <record id="ciudad_51" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Morelos</field>
+    </record>
+    <record id="ciudad_50" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Zaragoza</field>
+    </record>
+    <record id="ciudad_53" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Sabinas</field>
+    </record>
+    <record id="ciudad_52" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Allende</field>
+    </record>
+    <record id="ciudad_487" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Guasave</field>
+    </record>
+    <record id="ciudad_486" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Mocorito</field>
+    </record>
+    <record id="ciudad_485" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Cosalá</field>
+    </record>
+    <record id="ciudad_484" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Quila</field>
+    </record>
+    <record id="ciudad_483" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Lic. Benito Juárez (Campo Gobierno)</field>
+    </record>
+    <record id="ciudad_482" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Navolato</field>
+    </record>
+    <record id="ciudad_481" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Aguaruto</field>
+    </record>
+    <record id="ciudad_480" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Culiacán Rosales</field>
+    </record>
+    <record id="ciudad_489" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Ahome</field>
+    </record>
+    <record id="ciudad_488" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Los Mochis</field>
+    </record>
+    <record id="ciudad_269" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Tejupilco de Hidalgo</field>
+    </record>
+    <record id="ciudad_268" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Almoloya de Juárez</field>
+    </record>
+    <record id="ciudad_267" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Toluca de Lerdo</field>
+    </record>
+    <record id="ciudad_266" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Tecalitlán</field>
+    </record>
+    <record id="ciudad_265" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Tuxpan</field>
+    </record>
+    <record id="ciudad_264" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Tamazula de Gordiano</field>
+    </record>
+    <record id="ciudad_263" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Zapotiltic</field>
+    </record>
+    <record id="ciudad_262" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Sayula</field>
+    </record>
+    <record id="ciudad_261" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Ciudad Guzmán</field>
+    </record>
+    <record id="ciudad_260" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Cihuatlán</field>
+    </record>
+    <record id="ciudad_469" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">El Naranjo</field>
+    </record>
+    <record id="ciudad_468" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Tamuin</field>
+    </record>
+    <record id="ciudad_504" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_son"/>
+      <field name="name">Hermosillo</field>
+    </record>
+    <record id="ciudad_505" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_son"/>
+      <field name="name">San Luis Río Colorado</field>
+    </record>
+    <record id="ciudad_502" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">El rosario</field>
+    </record>
+    <record id="ciudad_503" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">San Ignacio</field>
+    </record>
+    <record id="ciudad_500" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">Escuinapa de Hidalgo</field>
+    </record>
+    <record id="ciudad_501" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_sin"/>
+      <field name="name">La Cruz</field>
+    </record>
+    <record id="ciudad_461" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Soledad de Graciano Sánchez</field>
+    </record>
+    <record id="ciudad_460" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">San Luis Potosí</field>
+    </record>
+    <record id="ciudad_463" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Charcas</field>
+    </record>
+    <record id="ciudad_462" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Cedral</field>
+    </record>
+    <record id="ciudad_465" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Matehuala</field>
+    </record>
+    <record id="ciudad_464" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Salinas de Hidalgo</field>
+    </record>
+    <record id="ciudad_508" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_son"/>
+      <field name="name">Heroica Caborca</field>
+    </record>
+    <record id="ciudad_466" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_slp"/>
+      <field name="name">Ciudad Valles</field>
+    </record>
+    <record id="ciudad_568" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Cerro Azul</field>
+    </record>
+    <record id="ciudad_240" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">San Ignacio Cerro Gordo</field>
+    </record>
+    <record id="ciudad_218" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Las Pintitas</field>
+    </record>
+    <record id="ciudad_219" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">San José el Verde (El Verde)</field>
+    </record>
+    <record id="ciudad_212" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Guadalajara</field>
+    </record>
+    <record id="ciudad_213" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Zapopan</field>
+    </record>
+    <record id="ciudad_210" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_hgo"/>
+      <field name="name">Tepeapulco</field>
+    </record>
+    <record id="ciudad_211" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_hgo"/>
+      <field name="name">Ciudad de Fray Bernardino de Sahagún</field>
+    </record>
+    <record id="ciudad_216" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Tlaquepaque</field>
+    </record>
+    <record id="ciudad_217" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Tlajomulco de Zúñiga</field>
+    </record>
+    <record id="ciudad_214" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Tala</field>
+    </record>
+    <record id="ciudad_215" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Tonalá</field>
+    </record>
+    <record id="ciudad_188" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Huamuxtitlan</field>
+    </record>
+    <record id="ciudad_189" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Tlapa de Comonfort</field>
+    </record>
+    <record id="ciudad_182" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">San Luis de la Loma</field>
+    </record>
+    <record id="ciudad_249" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Tototlán</field>
+    </record>
+    <record id="ciudad_180" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Técpan de Galeana</field>
+    </record>
+    <record id="ciudad_181" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">San Luis San Pedro</field>
+    </record>
+    <record id="ciudad_186" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Olinalá</field>
+    </record>
+    <record id="ciudad_187" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Chilapa de Álvarez</field>
+    </record>
+    <record id="ciudad_184" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">San Jerónimo de Juárez</field>
+    </record>
+    <record id="ciudad_185" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Coyuca de Benítez</field>
+    </record>
+    <record id="ciudad_102" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chih"/>
+      <field name="name">Delicias</field>
+    </record>
+    <record id="ciudad_103" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chih"/>
+      <field name="name">Saucillo</field>
+    </record>
+    <record id="ciudad_517" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_son"/>
+      <field name="name">Huatabampo</field>
+    </record>
+    <record id="ciudad_413" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Putla Villa de Guerrero</field>
+    </record>
+    <record id="ciudad_516" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_son"/>
+      <field name="name">Navojoa</field>
+    </record>
+    <record id="ciudad_106" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chih"/>
+      <field name="name">José Mariano Jiménez</field>
+    </record>
+    <record id="ciudad_459" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_qro"/>
+      <field name="name">Bacalar</field>
+    </record>
+    <record id="ciudad_513" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_son"/>
+      <field name="name">Ciudad Obregón</field>
+    </record>
+    <record id="ciudad_328" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Huetamo de Núñez</field>
+    </record>
+    <record id="ciudad_329" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mor"/>
+      <field name="name">Cuernavaca</field>
+    </record>
+    <record id="ciudad_326" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Tacámbaro de Codallos</field>
+    </record>
+    <record id="ciudad_327" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Nueva Italia de Ruiz</field>
+    </record>
+    <record id="ciudad_324" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Heroica Zitácuaro</field>
+    </record>
+    <record id="ciudad_105" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chih"/>
+      <field name="name">Hidalgo del Parral</field>
+    </record>
+    <record id="ciudad_322" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Maravatío de Ocampo</field>
+    </record>
+    <record id="ciudad_323" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Tuxpan</field>
+    </record>
+    <record id="ciudad_320" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Las Guacamayas</field>
+    </record>
+    <record id="ciudad_321" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mich"/>
+      <field name="name">Ciudad Hidalgo</field>
+    </record>
+    <record id="ciudad_108" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_dgo"/>
+      <field name="name">Canatlán</field>
+    </record>
+    <record id="ciudad_109" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_dgo"/>
+      <field name="name">San Juan del Río del Centauro del Norte</field>
+    </record>
+    <record id="ciudad_519" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Jalpa de Méndez</field>
+    </record>
+    <record id="ciudad_451" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_qro"/>
+      <field name="name">El Pueblito</field>
+    </record>
+    <record id="ciudad_609" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Sihuapan</field>
+    </record>
+    <record id="ciudad_608" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">San Andrés Tuxtla</field>
+    </record>
+    <record id="ciudad_605" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Playa Vicente</field>
+    </record>
+    <record id="ciudad_604" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Tlacojalpan</field>
+    </record>
+    <record id="ciudad_607" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Juan Rodríguez Clara</field>
+    </record>
+    <record id="ciudad_606" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Isla</field>
+    </record>
+    <record id="ciudad_601" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Tres Valles</field>
+    </record>
+    <record id="ciudad_600" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Lerdo de Tejada</field>
+    </record>
+    <record id="ciudad_603" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Cosamaloapan</field>
+    </record>
+    <record id="ciudad_602" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Carlos A. Carrillo</field>
+    </record>
+    <record id="ciudad_139" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Rincón de Tamayo</field>
+    </record>
+    <record id="ciudad_138" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Celaya</field>
+    </record>
+    <record id="ciudad_133" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">San miguel de Allende</field>
+    </record>
+    <record id="ciudad_132" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">León de los Aldama</field>
+    </record>
+    <record id="ciudad_131" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Huanímaro</field>
+    </record>
+    <record id="ciudad_130" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Abasolo</field>
+    </record>
+    <record id="ciudad_137" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">San José Iturbide</field>
+    </record>
+    <record id="ciudad_136" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Doctor Mora</field>
+    </record>
+    <record id="ciudad_135" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">San Luis de la Paz</field>
+    </record>
+    <record id="ciudad_134" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">San Diego de la Unión</field>
+    </record>
+    <record id="ciudad_425" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Santiago Pinotepa Nacional</field>
+    </record>
+    <record id="ciudad_424" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Ocotlán de Morelos</field>
+    </record>
+    <record id="ciudad_427" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Juan Bautista lo de Soto</field>
+    </record>
+    <record id="ciudad_426" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Juan Cacahuatepec</field>
+    </record>
+    <record id="ciudad_421" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Cuilápam de Guerrero</field>
+    </record>
+    <record id="ciudad_420" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">El Rosario</field>
+    </record>
+    <record id="ciudad_423" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Heroica Ciudad de Ejutla de Crespo</field>
+    </record>
+    <record id="ciudad_422" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Villa Sola de Vega</field>
+    </record>
+    <record id="ciudad_429" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Río Grande o Piedra Parada</field>
+    </record>
+    <record id="ciudad_428" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Santiago Jamiltepec</field>
+    </record>
+    <record id="ciudad_161" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Acapulco de Juárez</field>
+    </record>
+    <record id="ciudad_559" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Paso de Ovejas</field>
+    </record>
+    <record id="ciudad_257" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">El Grullo</field>
+    </record>
+    <record id="ciudad_254" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Talpa de Allende</field>
+    </record>
+    <record id="ciudad_255" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Puerto Vallarta</field>
+    </record>
+    <record id="ciudad_252" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Jamay</field>
+    </record>
+    <record id="ciudad_253" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">La Barca</field>
+    </record>
+    <record id="ciudad_250" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Atotonilco el Alto</field>
+    </record>
+    <record id="ciudad_251" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Ocotlán</field>
+    </record>
+    <record id="ciudad_551" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_talx"/>
+      <field name="name">Calpulalpan</field>
+    </record>
+    <record id="ciudad_550" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_talx"/>
+      <field name="name">Tlaxcala (Tlaxcala de Xicotencatl)</field>
+    </record>
+    <record id="ciudad_553" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_talx"/>
+      <field name="name">Huamantla</field>
+    </record>
+    <record id="ciudad_552" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_talx"/>
+      <field name="name">Apizaco</field>
+    </record>
+    <record id="ciudad_555" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_talx"/>
+      <field name="name">Villa Vicente Guerrero</field>
+    </record>
+    <record id="ciudad_554" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_talx"/>
+      <field name="name">Chiautempan</field>
+    </record>
+    <record id="ciudad_258" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Autlán de Navarro</field>
+    </record>
+    <record id="ciudad_556" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Xalapa-Enríquez</field>
+    </record>
+    <record id="ciudad_177" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">La Unión</field>
+    </record>
+    <record id="ciudad_176" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Coyuca de Catalán</field>
+    </record>
+    <record id="ciudad_175" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Ciudad Altamirano</field>
+    </record>
+    <record id="ciudad_174" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Cutzamala de Pinzón</field>
+    </record>
+    <record id="ciudad_173" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Tlapehuala</field>
+    </record>
+    <record id="ciudad_172" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Ciudad Apaxtla de Castrejón</field>
+    </record>
+    <record id="ciudad_171" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Arcelia</field>
+    </record>
+    <record id="ciudad_170" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Teloloapan</field>
+    </record>
+    <record id="ciudad_179" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Zihuatanejo</field>
+    </record>
+    <record id="ciudad_178" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Petatlán</field>
+    </record>
+    <record id="ciudad_371" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">Linares</field>
+    </record>
+    <record id="ciudad_370" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">Montemorelos</field>
+    </record>
+    <record id="ciudad_373" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">Doctor Arroyo</field>
+    </record>
+    <record id="ciudad_372" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nl"/>
+      <field name="name">Hualahuises</field>
+    </record>
+    <record id="ciudad_375" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Francisco Telixtlahuaca</field>
+    </record>
+    <record id="ciudad_374" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Oaxaca de Juárez</field>
+    </record>
+    <record id="ciudad_377" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Santiago Suchilquitongo</field>
+    </record>
+    <record id="ciudad_376" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Pablo Huitzo</field>
+    </record>
+    <record id="ciudad_379" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Loma Bonita</field>
+    </record>
+    <record id="ciudad_378" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Juan Bautista Tuxtepec</field>
+    </record>
+    <record id="ciudad_354" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">Ixtlán del Río</field>
+    </record>
+    <record id="ciudad_48" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Ciudad Acuña</field>
+    </record>
+    <record id="ciudad_49" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Ciudad Melchor Múzquiz</field>
+    </record>
+    <record id="ciudad_46" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Piedras Negras</field>
+    </record>
+    <record id="ciudad_47" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Nava</field>
+    </record>
+    <record id="ciudad_44" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Castaños</field>
+    </record>
+    <record id="ciudad_45" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Ramos Arizpe</field>
+    </record>
+    <record id="ciudad_42" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Frontera</field>
+    </record>
+    <record id="ciudad_43" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Monclova</field>
+    </record>
+    <record id="ciudad_40" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Arteaga</field>
+    </record>
+    <record id="ciudad_41" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">San Buenaventura</field>
+    </record>
+    <record id="ciudad_292" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Texcoco de Mora</field>
+    </record>
+    <record id="ciudad_293" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Chiconcuac</field>
+    </record>
+    <record id="ciudad_290" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Coacalco de Berriozabal</field>
+    </record>
+    <record id="ciudad_291" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Tecamac de Felipe Villanueva</field>
+    </record>
+    <record id="ciudad_296" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Los Reyes Acaquilpan (La Paz)</field>
+    </record>
+    <record id="ciudad_297" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Ixtapaluca</field>
+    </record>
+    <record id="ciudad_294" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Chimalhuacán</field>
+    </record>
+    <record id="ciudad_295" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">San Vicente Chicoloapan de Juárez</field>
+    </record>
+    <record id="ciudad_298" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Chalco de Díaz Covarrubias</field>
+    </record>
+    <record id="ciudad_299" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mex"/>
+      <field name="name">Valle de Chalco Solidaridad</field>
+    </record>
+    <record id="ciudad_515" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_son"/>
+      <field name="name">Heroica Guaymas</field>
+    </record>
+    <record id="ciudad_514" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_son"/>
+      <field name="name">Empalme</field>
+    </record>
+    <record id="ciudad_100" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chih"/>
+      <field name="name">Manuel Ojinaga</field>
+    </record>
+    <record id="ciudad_101" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chih"/>
+      <field name="name">Juan Aldama</field>
+    </record>
+    <record id="ciudad_458" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_qro"/>
+      <field name="name">Playa del Carmen</field>
+    </record>
+    <record id="ciudad_107" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_dgo"/>
+      <field name="name">Victoria de Durango</field>
+    </record>
+    <record id="ciudad_104" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chih"/>
+      <field name="name">Santa Rosalía de Camargo</field>
+    </record>
+    <record id="ciudad_512" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_son"/>
+      <field name="name">Heroica Ciudad de Cananea</field>
+    </record>
+    <record id="ciudad_454" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_qro"/>
+      <field name="name">Kantunilkín</field>
+    </record>
+    <record id="ciudad_455" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_qro"/>
+      <field name="name">Isla Mujeres</field>
+    </record>
+    <record id="ciudad_456" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_qro"/>
+      <field name="name">Cancún</field>
+    </record>
+    <record id="ciudad_457" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_qro"/>
+      <field name="name">Cozumel</field>
+    </record>
+    <record id="ciudad_450" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_qro"/>
+      <field name="name">San Juan del Rio</field>
+    </record>
+    <record id="ciudad_518" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Villahermosa</field>
+    </record>
+    <record id="ciudad_452" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_qro"/>
+      <field name="name">Chetumal</field>
+    </record>
+    <record id="ciudad_453" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_qro"/>
+      <field name="name">Felipe Carrillo Puerto</field>
+    </record>
+    <record id="ciudad_588" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Córdoba</field>
+    </record>
+    <record id="ciudad_589" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Nogales</field>
+    </record>
+    <record id="ciudad_586" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Ixtaczoquitlán</field>
+    </record>
+    <record id="ciudad_587" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Fortín de las Flores</field>
+    </record>
+    <record id="ciudad_584" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Boca del RÍo</field>
+    </record>
+    <record id="ciudad_585" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Orizaba</field>
+    </record>
+    <record id="ciudad_582" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Huatusco de Chicuellar</field>
+    </record>
+    <record id="ciudad_583" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Soledad de Doblado</field>
+    </record>
+    <record id="ciudad_580" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Yecuatla</field>
+    </record>
+    <record id="ciudad_581" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Pánuco</field>
+    </record>
+    <record id="ciudad_209" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_hgo"/>
+      <field name="name">Apan</field>
+    </record>
+    <record id="ciudad_208" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_hgo"/>
+      <field name="name">Tizayuca</field>
+    </record>
+    <record id="ciudad_201" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_hgo"/>
+      <field name="name">Tula de Allende</field>
+    </record>
+    <record id="ciudad_200" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_hgo"/>
+      <field name="name">Actopan</field>
+    </record>
+    <record id="ciudad_203" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_hgo"/>
+      <field name="name">Tepeji del Rio</field>
+    </record>
+    <record id="ciudad_202" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_hgo"/>
+      <field name="name">Cruz Azul</field>
+    </record>
+    <record id="ciudad_205" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_hgo"/>
+      <field name="name">Huejutla de Reyes</field>
+    </record>
+    <record id="ciudad_204" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_hgo"/>
+      <field name="name">Tlaxcoapan</field>
+    </record>
+    <record id="ciudad_207" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_hgo"/>
+      <field name="name">Santiago Tulantepec</field>
+    </record>
+    <record id="ciudad_206" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_hgo"/>
+      <field name="name">Tulancingo</field>
+    </record>
+    <record id="ciudad_199" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_hgo"/>
+      <field name="name">Zimapan</field>
+    </record>
+    <record id="ciudad_198" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_hgo"/>
+      <field name="name">Ixmiquilpan</field>
+    </record>
+    <record id="ciudad_558" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Coatepec</field>
+    </record>
+    <record id="ciudad_191" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">San Luis Acatlán</field>
+    </record>
+    <record id="ciudad_190" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Tlalixtaquilla</field>
+    </record>
+    <record id="ciudad_193" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Copala</field>
+    </record>
+    <record id="ciudad_192" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Cruz Grande</field>
+    </record>
+    <record id="ciudad_195" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Marquelia</field>
+    </record>
+    <record id="ciudad_194" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Azoyú</field>
+    </record>
+    <record id="ciudad_197" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_hgo"/>
+      <field name="name">Pachuca de Soto</field>
+    </record>
+    <record id="ciudad_196" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Cuajinicuilapa</field>
+    </record>
+    <record id="ciudad_248" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Tepatitlán de Morelos</field>
+    </record>
+    <record id="ciudad_557" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Banderilla</field>
+    </record>
+    <record id="ciudad_642" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Villanueva</field>
+    </record>
+    <record id="ciudad_259" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">La Resolana</field>
+    </record>
+    <record id="ciudad_339" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">Santiago Ixcuintla</field>
+    </record>
+    <record id="ciudad_338" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">Tuxpan</field>
+    </record>
+    <record id="ciudad_335" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mor"/>
+      <field name="name">Jojutla</field>
+    </record>
+    <record id="ciudad_334" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mor"/>
+      <field name="name">Galeana</field>
+    </record>
+    <record id="ciudad_337" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_nay"/>
+      <field name="name">Tepic</field>
+    </record>
+    <record id="ciudad_336" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mor"/>
+      <field name="name">Tlaquiltenango</field>
+    </record>
+    <record id="ciudad_331" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mor"/>
+      <field name="name">Cuautla (Cuautla de Morelos)</field>
+    </record>
+    <record id="ciudad_330" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mor"/>
+      <field name="name">Puente de Ixtla</field>
+    </record>
+    <record id="ciudad_333" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mor"/>
+      <field name="name">Zacatepec de Hidalgo</field>
+    </record>
+    <record id="ciudad_332" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_mor"/>
+      <field name="name">Santa Rosa Treinta</field>
+    </record>
+    <record id="ciudad_1" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_df"/>
+      <field name="name">Ciudad de México</field>
+    </record>
+    <record id="ciudad_616" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Cosoleacaque</field>
+    </record>
+    <record id="ciudad_3" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ags"/>
+      <field name="name">San Francisco de los Romo</field>
+    </record>
+    <record id="ciudad_2" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ags"/>
+      <field name="name">Aguascalientes</field>
+    </record>
+    <record id="ciudad_5" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ags"/>
+      <field name="name">Cosío</field>
+    </record>
+    <record id="ciudad_4" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ags"/>
+      <field name="name">Rincón de Romos</field>
+    </record>
+    <record id="ciudad_7" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ags"/>
+      <field name="name">Pabellón de Arteaga</field>
+    </record>
+    <record id="ciudad_6" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ags"/>
+      <field name="name">Tepezalá</field>
+    </record>
+    <record id="ciudad_9" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ags"/>
+      <field name="name">Calvillo</field>
+    </record>
+    <record id="ciudad_8" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ags"/>
+      <field name="name">Asientos</field>
+    </record>
+    <record id="ciudad_506" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_son"/>
+      <field name="name">Puerto Peñasco</field>
+    </record>
+    <record id="ciudad_507" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_son"/>
+      <field name="name">Sonoita</field>
+    </record>
+    <record id="ciudad_567" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">El Higo</field>
+    </record>
+    <record id="ciudad_510" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_son"/>
+      <field name="name">Magdalena de Kino</field>
+    </record>
+    <record id="ciudad_630" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Villa de Cos</field>
+    </record>
+    <record id="ciudad_631" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Víctor Rosales</field>
+    </record>
+    <record id="ciudad_632" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Guadalupe</field>
+    </record>
+    <record id="ciudad_633" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Ciudad Cuauhtémoc</field>
+    </record>
+    <record id="ciudad_634" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Ojocaliente</field>
+    </record>
+    <record id="ciudad_635" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Luis Moya</field>
+    </record>
+    <record id="ciudad_636" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Loreto</field>
+    </record>
+    <record id="ciudad_637" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Villa Hidalgo</field>
+    </record>
+    <record id="ciudad_638" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Fresnillo</field>
+    </record>
+    <record id="ciudad_639" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_zac"/>
+      <field name="name">Sombrerete</field>
+    </record>
+    <record id="ciudad_418" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Antonio de la Cal</field>
+    </record>
+    <record id="ciudad_419" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Villa de Zaachila</field>
+    </record>
+    <record id="ciudad_148" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Apaseo el Alto</field>
+    </record>
+    <record id="ciudad_149" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Jerécuaro</field>
+    </record>
+    <record id="ciudad_410" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Pedro Pochutla</field>
+    </record>
+    <record id="ciudad_147" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Jaral del Progreso</field>
+    </record>
+    <record id="ciudad_412" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Bahias de Huatulco</field>
+    </record>
+    <record id="ciudad_145" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Cortazar</field>
+    </record>
+    <record id="ciudad_414" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Miguel el Grande</field>
+    </record>
+    <record id="ciudad_415" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Santa Cruz Itundujia</field>
+    </record>
+    <record id="ciudad_416" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Zimatlán de Álvarez</field>
+    </record>
+    <record id="ciudad_141" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Comonfort</field>
+    </record>
+    <record id="ciudad_388" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Mariscala de Juárez</field>
+    </record>
+    <record id="ciudad_389" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Villa de Tamazulápam del Progreso</field>
+    </record>
+    <record id="ciudad_380" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Cosolapa</field>
+    </record>
+    <record id="ciudad_381" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Vicente Camalote</field>
+    </record>
+    <record id="ciudad_382" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Felipe Jalapa de Díaz</field>
+    </record>
+    <record id="ciudad_383" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Juan Bautista Valle Nacional</field>
+    </record>
+    <record id="ciudad_384" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Teotitlán de Flores Magón</field>
+    </record>
+    <record id="ciudad_385" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Juan Bautista Cuicatlán</field>
+    </record>
+    <record id="ciudad_386" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Natividad</field>
+    </record>
+    <record id="ciudad_387" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">Heroica Ciudad de Huajuapan de León</field>
+    </record>
+    <record id="ciudad_37" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_camp"/>
+      <field name="name">Pomuch</field>
+    </record>
+    <record id="ciudad_537" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Ciudad Miguel Alemán</field>
+    </record>
+    <record id="ciudad_35" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_camp"/>
+      <field name="name">Hopelchén</field>
+    </record>
+    <record id="ciudad_34" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_camp"/>
+      <field name="name">Champotón</field>
+    </record>
+    <record id="ciudad_33" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_camp"/>
+      <field name="name">Escárcega</field>
+    </record>
+    <record id="ciudad_32" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_camp"/>
+      <field name="name">Candelaria</field>
+    </record>
+    <record id="ciudad_31" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_camp"/>
+      <field name="name">Sabancuy</field>
+    </record>
+    <record id="ciudad_30" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_camp"/>
+      <field name="name">Ciudad del Carmen</field>
+    </record>
+    <record id="ciudad_509" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_son"/>
+      <field name="name">Heroica Nogales</field>
+    </record>
+    <record id="ciudad_535" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Jaumave</field>
+    </record>
+    <record id="ciudad_39" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tab"/>
+      <field name="name">Saltillo</field>
+    </record>
+    <record id="ciudad_38" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_camp"/>
+      <field name="name">Calkini</field>
+    </record>
+    <record id="ciudad_534" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Ciudad Tula</field>
+    </record>
+    <record id="ciudad_86" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Pijijiapan</field>
+    </record>
+    <record id="ciudad_511" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_son"/>
+      <field name="name">Agua Prieta</field>
+    </record>
+    <record id="ciudad_87" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Mapastepec</field>
+    </record>
+    <record id="ciudad_245" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Lagos de Moreno</field>
+    </record>
+    <record id="ciudad_244" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Valle de Guadalupe</field>
+    </record>
+    <record id="ciudad_247" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">San Diego de Alejandría</field>
+    </record>
+    <record id="ciudad_246" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Unión de San Antonio</field>
+    </record>
+    <record id="ciudad_241" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Teocaltiche</field>
+    </record>
+    <record id="ciudad_569" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Huayacocotla</field>
+    </record>
+    <record id="ciudad_243" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Yahualica de González Gallo</field>
+    </record>
+    <record id="ciudad_242" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Villa Hidalgo</field>
+    </record>
+    <record id="ciudad_564" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Tantoyuca</field>
+    </record>
+    <record id="ciudad_565" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Platón Sánchez</field>
+    </record>
+    <record id="ciudad_566" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Naranjos</field>
+    </record>
+    <record id="ciudad_530" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_tamps"/>
+      <field name="name">Heroica Matamoros</field>
+    </record>
+    <record id="ciudad_560" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">José Cardel</field>
+    </record>
+    <record id="ciudad_561" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Veracruz</field>
+    </record>
+    <record id="ciudad_562" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Tampico Alto</field>
+    </record>
+    <record id="ciudad_563" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_ver"/>
+      <field name="name">Tempoal de Sánchez</field>
+    </record>
+    <record id="ciudad_124" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Purísima de Bustos</field>
+    </record>
+    <record id="ciudad_437" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">Xicotepec</field>
+    </record>
+    <record id="ciudad_126" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Irapuato</field>
+    </record>
+    <record id="ciudad_435" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">San Andrés Cholula</field>
+    </record>
+    <record id="ciudad_432" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_pue"/>
+      <field name="name">Puebla (Heroica Puebla)</field>
+    </record>
+    <record id="ciudad_84" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_chis"/>
+      <field name="name">Villaflores</field>
+    </record>
+    <record id="ciudad_121" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Romita</field>
+    </record>
+    <record id="ciudad_122" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Marfil</field>
+    </record>
+    <record id="ciudad_431" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_oax"/>
+      <field name="name">San Pedro Mixtepec -Dto. 22-</field>
+    </record>
+    <record id="ciudad_256" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_jal"/>
+      <field name="name">Cocula</field>
+    </record>
+    <record id="ciudad_155" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Santiago Maravatío</field>
+    </record>
+    <record id="ciudad_154" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Yuriria</field>
+    </record>
+    <record id="ciudad_157" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gro"/>
+      <field name="name">Chilpancingo de los Bravo</field>
+    </record>
+    <record id="ciudad_156" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Uriangato</field>
+    </record>
+    <record id="ciudad_151" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Tarandacuao</field>
+    </record>
+    <record id="ciudad_150" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Acámbaro</field>
+    </record>
+    <record id="ciudad_153" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Salvatierra</field>
+    </record>
+    <record id="ciudad_152" model="res.country.state.ciudad">
+      <field name="state_id" ref="cfd_mx.res_country_state_mx_gto"/>
+      <field name="name">Moroleón</field>
+    </record>
+  </data>
+</openerp>

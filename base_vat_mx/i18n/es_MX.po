@@ -1,0 +1,37 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_vat_mx
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-25 00:57+0000\n"
+"PO-Revision-Date: 2016-11-24 18:58-0600\n"
+"Last-Translator: Martin Trigaux\n"
+"Language-Team: Spanish (Mexico) (http://www.transifex.com/odoo/odoo-9/language/es_MX/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#. module: base_vat_mx
+#: model:ir.model,name:base_vat_mx.model_res_partner
+msgid "Partner"
+msgstr "Clientes"
+
+#. module: base_vat_mx
+#: code:addons/base_vat_mx/base_vat.py:77
+#, python-format
+msgid ""
+"Partner vat must be unique per company except on partner with parent/childe relationship.\n"
+"Partners with same vat and not related, are: %s!"
+msgstr ""
+"El RFC debe ser unica por empresa, excepto en la relación Empresa - Contactos.\n"
+"Empresas con el mismo RFC son: %s!"
+
+#. module: base_vat_mx
+#: model:ir.ui.view,arch_db:base_vat_mx.view_partner_form
+msgid "RFC"
+msgstr "RFC"

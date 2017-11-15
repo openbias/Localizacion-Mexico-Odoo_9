@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!--
+            Reporte Account charts View, Excel, PDF
+        -->
+        <record id="view_account_chart" model="ir.ui.view">
+            <field name="name">account.chart.form</field>
+            <field name="model">account.chart</field>
+            <field name="arch" type="xml">
+                <form string="Account charts">
+                    <field name="company_id" invisible="1"/>
+                    <group col="4">
+                        <field name="target_move" widget="radio"/>
+                        <newline/>
+                        <field name="date_from"/>
+                        <field name="date_to"/>
+                    </group>
+                    <group col="3">
+                        <field name="journal_ids" widget="many2many_tags" options="{'no_create': True}"/>
+                    </group>
+                    <footer>
+                        <button name="account_chart_open_window" string="Open Charts" type="object" class="oe_highlight" icon="fa-external-link" />
+                        <button name="account_chart_open_excel" string="Excel" type="object" class="oe_highlight" icon="fa-file-excel-o" />
+                        <button name="account_chart_open_pdf" string="PDF" type="object" class="oe_highlight" icon="fa-file-pdf-o"/>
+                        or
+                        <button string="Cancel" class="oe_link" special="cancel" icon="fa-window-close-o"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+        <record id="action_account_chart" model="ir.actions.act_window">
+            <field name="name">Chart of Accounts</field>
+            <field name="res_model">account.chart</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_account_chart"/>
+            <field name="target">new</field>
+        </record>
+        <menuitem id="menu_action_account_tree2"
+            name="Chart of Accounts"
+            parent="account.menu_finance_entries"
+            action="action_account_chart"
+            sequence="21"/>
+
+        <!-- 
+            Balanza de Comprobación Clientes
+        -->
+        <record id="view_account_chart_partner" model="ir.ui.view">
+            <field name="name">account.chart.partner.form</field>
+            <field name="model">account.chart</field>
+            <field name="arch" type="xml">
+                <form string="Account charts">
+                    <field name="company_id" invisible="1"/>
+                    <group>
+                        <field name="account_id" context="{'view_all': True}" />
+                        <field name="target_move" widget="radio"/>
+                    </group>
+                    <group>
+                        <field name="date_from"/>
+                        <field name="date_to"/>
+                    </group>
+                    <notebook>
+                        <page string="Partners">
+                            <field name="partner_ids" options="{'no_create': True}" nolabel="True" colspan="4"/>
+                        </page>
+                        <page string="Journals">
+                            <field name="journal_ids" widget="many2many_tags" options="{'no_create': True}" nolabel="True" colspan="4"/>
+                        </page>
+                    </notebook>
+                    <footer>
+                        <button name="account_chart_open_excel" string="Excel" type="object" class="oe_highlight" icon="fa-file-excel-o" />
+                        <button name="account_chart_open_pdf" string="PDF" type="object" class="oe_highlight" icon="fa-file-pdf-o"/>
+                        or
+                        <button string="Cancel" class="oe_highlight" special="cancel" icon="fa-times-circle"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+        <record id="action_account_chart_partner" model="ir.actions.act_window">
+            <field name="name">Balanza por Clientes</field>
+            <field name="res_model">account.chart</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_account_chart_partner"/>
+            <field name="context">{'view_all':True, 'is_partner': True}</field>
+            <field name="target">new</field>
+        </record>
+        <menuitem id="menu_action_account_partner_tree"
+            name="Balanza por Clientes (BIAS)"
+            parent="account.menu_finance_reports"
+            action="action_account_chart_partner"
+            sequence="501" />
+
+
+
+        <report
+            id="menu_report_account_tree_chart_pdf"
+            model="account.chart"
+            string="Chart of Accounts PDF"
+            report_type="qweb-pdf"
+            name="accountchart_report_pdf"
+            file="accountchart_report_pdf" />
+
+        <report
+            id="menu_report_account_tree_chart"
+            model="account.chart"
+            string="Chart of Accounts XLSX"
+            report_type="xlsx"
+            name="accountchart_report_xlsx"
+            file="accountchart_report_xlsx" />
+
+    </data>
+</openerp>
