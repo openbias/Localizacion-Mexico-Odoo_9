@@ -13,7 +13,9 @@
     ],
     'data': [
         'data/report_data.xml',
-        'views/models_views.xml'
+        'views/models_views.xml',
+        'views/report_document.xml'
     ],
     'installable': True,
+    'css': ['static/src/less/layout_background.css'],
 }

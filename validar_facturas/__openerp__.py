@@ -16,7 +16,7 @@
     'category': 'Accounting & Finance',
     'version': '0.1.3',
 
-    'depends': ['bias_base', 'cfd_mx', 'account'],
+    'depends': ['bias_base_report', 'cfd_mx', 'account'],
 
     # always loaded
     'data': [
