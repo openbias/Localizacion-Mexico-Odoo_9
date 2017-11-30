@@ -23,30 +23,12 @@ class validar_facturas(models.TransientModel):
     company_id = fields.Many2one('res.company', string='Company', change_default=True,
         required=True, readonly=True,
         default=lambda self: self.env['res.company']._company_default_get('validar.facturas'))
-
-    # mensajes = fields.Text(string="Mensajes")
-    # codigo = fields.Char(string="Codigo Estatus")
-    # estado = fields.Char(string="Estado")
-    # next = fields.Boolean(string="Continuar", default=False)
-    # 
-    # validar_partidas = fields.Boolean(string="Validar partidas", default=True)
-    # total_xml = fields.Float(string="Total xml")
-    # total_fac = fields.Float(string="Total factura")
-    # all_ok = fields.Boolean(string="Todo bien")
-    # lines = fields.One2many("validar_facturas.subir.factura.line", "wizard_id", string="Partidas")
-    # show_lines = fields.Boolean(string="Show lines", default=False)
-
-    
+   
     @api.multi
     def action_validar_facturas(self):
         self.ensure_one()
         cfdi = self.env['account.cfdi']
         message = ""
-        # res = cfdi.validate(self)
-        # if res.get('message'):
-        #     message = res['message']
-        # else:
-        #     return self.get_process_data(res.get('result'))
         context = dict(self._context)
         try:
             res = cfdi.validate(self)
@@ -121,15 +103,17 @@ class validar_facturas(models.TransientModel):
         receptor = d.get("%sReceptor"%ns)
         timbre = d.get("%sComplemento"%ns) and d["%sComplemento"%ns].get("%sTimbreFiscalDigital"%ns1)
         uuid = timbre.get("@UUID") or ""
+        nombre_emisor = emisor.get("@Nombre", "").encode('utf-8').decode('utf-8') or emisor.get("@nombre", "").encode('utf-8').decode('utf-8') or ""
+        nombre_receptor = receptor.get("@Nombre", "").encode('utf-8').decode('utf-8') or receptor.get("@nombre", "").encode('utf-8').decode('utf-8') or ""
         res = {
             'importe_total': d.get("@Total") or d.get("@total"),
             'version': d.get("@Version") or d.get("@version"),
             'tipo_comprobante': d.get("@TipoDeComprobante") or d.get("@tipoDeComprobante") or "",
             'certificado_emisor': d.get("@NoCertificado") or d.get("@noCertificado") or "",
             'fecha_emision': d.get("@Fecha") or d.get("@fecha"),
-            'nombre_emisor': u"%s"%(emisor.get("@Nombre", "").encode('utf-8') or emisor.get("@nombre", "").encode('utf-8') or ""),
+            'nombre_emisor': nombre_emisor,
             'rfc_emisor': u"%s"%(emisor.get("@Rfc") or emisor.get("@rfc") or ""),
-            'nombre_receptor': u"%s"%(receptor.get("@Nombre", "").encode('utf-8').decode('utf-8') or receptor.get("@nombre", "").encode('utf-8').decode('utf-8') or ""),
+            'nombre_receptor': nombre_receptor,
             'rfc_receptor': u"%s"%(receptor.get("@Rfc") or receptor.get("@rfc") or ""),
             'certificado_sat': timbre.get("@noCertificadoSAT") or "",
             'fecha_certificacion': timbre.get("@FechaTimbrado") or "",
