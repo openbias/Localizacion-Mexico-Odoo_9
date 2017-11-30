@@ -9,7 +9,11 @@
 }
 .border_top {
     border-style: solid !important;
-    border-top: solid 1px #ff0000 !important;
+    border-top: solid 1px #8F8F8F !important;
+}
+.border_top1 {
+    border-style: solid !important;
+    border-top: solid 1px #8F8F8F !important;
 }
 
 

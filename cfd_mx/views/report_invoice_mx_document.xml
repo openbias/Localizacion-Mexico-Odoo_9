@@ -169,9 +169,8 @@
                         </div>
                         <table class="table table-bordered table-sm event-table">
                             <tr>
-                                <td class="bg_theme_color"><strong>C. Producto:</strong></td>
-                                <td class="bg_theme_color"><strong>Descripción</strong></td>
-                                <td class="bg_theme_color"><strong>C. Unidad</strong></td>
+                                <td class="bg_theme_color" style="width: 50%;"><strong>Descripción</strong></td>
+                                <td class="bg_theme_color"><strong>Cantidad</strong></td>
                                 <td class="bg_theme_color"><strong>Unidad</strong></td>
                                 <td class="bg_theme_color"><strong>V. Unitario</strong></td>
                                 <td class="bg_theme_color"><strong>Importe</strong></td>
@@ -179,11 +178,10 @@
                             </tr>
                             <t t-foreach="o.invoice_line_ids" t-as="l">
                                 <tr> 
-                                    <td class="border_top"><span t-field="l.product_id.clave_prodser_id.clave" /> </td>
-                                    <td class="border_top"><span t-esc="l.name" /></td>
-                                    <td class="border_top"><span t-field="l.uom_id.clave_unidadesmedida_id.clave" /></td>
+                                    <td class="border_top" style="width: 50%;"><span t-esc="l.name" /></td>
+                                    <td class="border_top"><span t-field="l.quantity" /> </td>
                                     <td class="border_top"><span t-field="l.uom_id.name" /> </td>
-                                    <td class="border_top"><span t-field="l.price_unit" /> </td>
+                                    <td class="border_top">$ <span t-field="l.price_unit" /> </td>
                                     <td class="border_top"><span t-field="l.price_subtotal" /> </td>
                                     <td class="border_top"><span t-field="l.price_discount_sat" /> </td>
                                 </tr>
@@ -193,14 +191,17 @@
                                         <tr class="rowB2">
                                             <td colspan="7">
                                                 <div class="row font_inv">
-                                                    <div class="col-xs-4 text-left">Impuestos</div>
+                                                    <div class="col-xs-4 text-left">
+                                                        <span><strong>Clave Producto SAT: </strong></span> <span t-esc="l.product_id.clave_prodser_id.clave or '01010101' "></span><br />
+                                                        <span><strong>Clave Unidad SAT: </strong></span> <span t-field="l.uom_id.clave_unidadesmedida_id.clave"></span>
+                                                    </div>
                                                     <div class="col-xs-8 text-left">
                                                         <table style="width:100%">
                                                             <tr>
                                                                 <td><strong>Nombre</strong></td>
                                                                 <td><strong>Impuesto</strong></td>
                                                                 <td><strong>Tipo Factor</strong></td>
-                                                                <td><strong>Tasa o Couta</strong></td>
+                                                                <td><strong>Tasa o Cuota</strong></td>
                                                                 <td><strong>Importe</strong></td>
                                                             </tr>
                                                             <t t-foreach="tax" t-as="t">
@@ -213,11 +214,11 @@
                                                                     <t t-set="tras" t-value="tras + importe" />
                                                                 </t>
                                                                 <tr>
-                                                                    <td><span t-esc="t.get('Name')" /></td>
-                                                                    <td><span t-esc="t.get('Impuesto')" /></td>
-                                                                    <td><span t-esc="t.get('TipoFactor')" /></td>
-                                                                    <td><span t-esc="t.get('TasaOCuota')" /></td>
-                                                                    <td>$ <span t-esc="t.get('Importe')" /></td>
+                                                                    <td class="border_top"><span t-esc="t.get('Name')" /></td>
+                                                                    <td class="border_top"><span t-esc="t.get('Impuesto')" /></td>
+                                                                    <td class="border_top"><span t-esc="t.get('TipoFactor')" /></td>
+                                                                    <td class="border_top"><span t-esc="t.get('TasaOCuota')" /></td>
+                                                                    <td class="border_top">$ <span t-esc="t.get('Importe')" /></td>
                                                                 </tr>
                                                             </t>
                                                         </table>
