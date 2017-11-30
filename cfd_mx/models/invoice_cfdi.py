@@ -20,7 +20,6 @@ class AccountCfdi(models.Model):
             cfdi_relacionado["uuid"] = self.uuid_relacionado_id and self.uuid_relacionado_id.uuid or ""
         return cfdi_relacionado
 
-
     def invoice_info_comprobante(self):
         obj = self.obj
         dp = obj.env['decimal.precision'].precision_get('Account')
@@ -133,7 +132,6 @@ class AccountCfdi(models.Model):
             conceptos.append(concepto_attribs)
         cfdi_conceptos = conceptos
         return cfdi_conceptos
-
 
     def invoice_info_impuestos(self, conceptos):
         TotalImpuestosRetenidos = 0.00
