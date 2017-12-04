@@ -13,7 +13,7 @@
             </field>
         </record>
         <record id="action_uso_cfdi" model="ir.actions.act_window">
-            <field name="name">Catálogo Uso CFDI</field>
+            <field name="name">Uso CFDI</field>
             <field name="res_model">cfd_mx.usocfdi</field>
             <field name="type">ir.actions.act_window</field>
             <field name="view_type">tree</field>
@@ -22,7 +22,7 @@
         </record>
         <menuitem 
             action="action_uso_cfdi" 
-            parent="bias_base.menu_localizacion_mexico_root"
+            parent="bias_base.menu_catalogo_cfdi"
             groups="group_cfd_mx_user"
             id="menu_uso_cfdi" sequence="90" />
 
@@ -47,7 +47,7 @@
             </field>
         </record>
         <record id="action_clave_prodserv" model="ir.actions.act_window">
-            <field name="name">Catálogo Productos y Servicios</field>
+            <field name="name">Productos y Servicios</field>
             <field name="res_model">cfd_mx.prodserv</field>
             <field name="type">ir.actions.act_window</field>
             <field name="view_type">tree</field>
@@ -56,7 +56,7 @@
         </record>
         <menuitem
             action="action_clave_prodserv" 
-            parent="bias_base.menu_localizacion_mexico_root"
+            parent="bias_base.menu_catalogo_cfdi"
             groups="group_cfd_mx_user"
             id="menu_clave_prodserv"
             sequence="91" />
@@ -84,7 +84,7 @@
             </field>
         </record>
         <record id="action_unidades_medida" model="ir.actions.act_window">
-            <field name="name">Catálogo Unidades de Medida CFDI</field>
+            <field name="name">Unidades de Medida CFDI</field>
             <field name="res_model">cfd_mx.unidadesmedida</field>
             <field name="type">ir.actions.act_window</field>
             <field name="view_type">tree</field>
@@ -93,7 +93,7 @@
         </record>
         <menuitem
             action="action_unidades_medida" 
-            parent="bias_base.menu_localizacion_mexico_root"
+            parent="bias_base.menu_catalogo_cfdi"
             groups="group_cfd_mx_user"
             id="menu_unidades_medida"
             sequence="92" />
@@ -120,7 +120,7 @@
             </field>
         </record>
         <record id="action_formapago" model="ir.actions.act_window">
-            <field name="name">Catálogo Formas de Pago</field>
+            <field name="name">Formas de Pago</field>
             <field name="res_model">cfd_mx.formapago</field>
             <field name="type">ir.actions.act_window</field>
             <field name="view_type">tree</field>
@@ -129,7 +129,7 @@
         </record>
         <menuitem
             action="action_formapago" 
-            parent="bias_base.menu_localizacion_mexico_root"
+            parent="bias_base.menu_catalogo_cfdi"
             groups="group_cfd_mx_user"
             id="menu_formapago"
             sequence="93" />
@@ -155,7 +155,7 @@
             </field>
         </record>
         <record id="action_metodopago" model="ir.actions.act_window">
-            <field name="name">Catálogo Metodo de Pago</field>
+            <field name="name">Metodo de Pago</field>
             <field name="res_model">cfd_mx.metodopago</field>
             <field name="type">ir.actions.act_window</field>
             <field name="view_type">tree</field>
@@ -164,7 +164,7 @@
         </record>
         <menuitem
             action="action_metodopago" 
-            parent="bias_base.menu_localizacion_mexico_root"
+            parent="bias_base.menu_catalogo_cfdi"
             groups="group_cfd_mx_user"
             id="menu_metodopago"
             sequence="94" />
@@ -192,7 +192,7 @@
             </field>
         </record>
         <record id="action_regimen" model="ir.actions.act_window">
-            <field name="name">Catálogo Regimen Fiscal</field>
+            <field name="name">Regimen Fiscal</field>
             <field name="res_model">cfd_mx.regimen</field>
             <field name="type">ir.actions.act_window</field>
             <field name="view_type">tree</field>
@@ -201,7 +201,7 @@
         </record>
         <menuitem
             action="action_regimen" 
-            parent="bias_base.menu_localizacion_mexico_root"
+            parent="bias_base.menu_catalogo_cfdi"
             groups="group_cfd_mx_user"
             id="menu_regimen"
             sequence="95" />
@@ -231,7 +231,7 @@
         </record>
         <menuitem
             action="action_alta_catalogos_wizard" 
-            parent="bias_base.menu_localizacion_mexico_root"
+            parent="bias_base.menu_catalogo_cfdi"
             groups="group_cfd_mx_user"
             id="menu_alta_catalogos_wizard"
             sequence="99" />
@@ -258,7 +258,7 @@
             </field>
         </record>
         <record id="action_aduana" model="ir.actions.act_window">
-            <field name="name">Catálogo Aduanas</field>
+            <field name="name">Aduanas</field>
             <field name="res_model">cfd_mx.aduana</field>
             <field name="type">ir.actions.act_window</field>
             <field name="view_type">tree</field>
@@ -267,7 +267,7 @@
         </record>
         <menuitem
             action="action_aduana" 
-            parent="bias_base.menu_localizacion_mexico_root"
+            parent="bias_base.menu_catalogo_cfdi"
             groups="group_cfd_mx_user"
             id="menu_aduana"
             sequence="100" />
@@ -306,7 +306,7 @@
         </record>    
         <menuitem action="action_conf_addenda"
             id="menu_conf_addenda" 
-            parent="bias_base.menu_localizacion_mexico_root"
+            parent="bias_base.menu_catalogo_cfdi"
             groups="group_cfd_mx_user"
             sequence="120"  />
 

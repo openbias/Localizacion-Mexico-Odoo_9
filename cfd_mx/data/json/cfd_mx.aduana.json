@@ -1,0 +1,296 @@
+[
+    {
+        "id": "cfd_mx.aduana_01",
+        "clave": "01",
+        "name": "ACAPULCO, ACAPULCO DE JUAREZ, GUERRERO.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_02",
+        "clave": "02",
+        "name": "AGUA PRIETA, AGUA PRIETA, SONORA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_05",
+        "clave": "05",
+        "name": "SUBTENIENTE LOPEZ, SUBTENIENTE LOPEZ, QUINTANA ROO.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_06",
+        "clave": "06",
+        "name": "CIUDAD DEL CARMEN, CIUDAD DEL CARMEN, CAMPECHE.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_07",
+        "clave": "07",
+        "name": "CIUDAD JUAREZ, CIUDAD JUAREZ, CHIHUAHUA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_08",
+        "clave": "08",
+        "name": "COATZACOALCOS, COATZACOALCOS, VERACRUZ.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_11",
+        "clave": "11",
+        "name": "ENSENADA, ENSENADA, BAJA CALIFORNIA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_12",
+        "clave": "12",
+        "name": "GUAYMAS, GUAYMAS, SONORA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_14",
+        "clave": "14",
+        "name": "LA PAZ, LA PAZ, BAJA CALIFORNIA SUR.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_16",
+        "clave": "16",
+        "name": "MANZANILLO, MANZANILLO, COLIMA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_17",
+        "clave": "17",
+        "name": "MATAMOROS, MATAMOROS, TAMAULIPAS.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_18",
+        "clave": "18",
+        "name": "MAZATLAN, MAZATLAN, SINALOA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_19",
+        "clave": "19",
+        "name": "MEXICALI, MEXICALI, BAJA CALIFORNIA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_20",
+        "clave": "20",
+        "name": "MEXICO, DISTRITO FEDERAL.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_22",
+        "clave": "22",
+        "name": "NACO, NACO, SONORA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_23",
+        "clave": "23",
+        "name": "NOGALES, NOGALES, SONORA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_24",
+        "clave": "24",
+        "name": "NUEVO LAREDO, NUEVO LAREDO, TAMAULIPAS.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_25",
+        "clave": "25",
+        "name": "OJINAGA, OJINAGA, CHIHUAHUA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_26",
+        "clave": "26",
+        "name": "PUERTO PALOMAS, PUERTO PALOMAS, CHIHUAHUA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_27",
+        "clave": "27",
+        "name": "PIEDRAS NEGRAS, PIEDRAS NEGRAS, COAHUILA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_28",
+        "clave": "28",
+        "name": "PROGRESO, PROGRESO, YUCATAN.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_30",
+        "clave": "30",
+        "name": "CIUDAD REYNOSA, CIUDAD REYNOSA, TAMAULIPAS.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_31",
+        "clave": "31",
+        "name": "SALINA CRUZ, SALINA CRUZ, OAXACA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_33",
+        "clave": "33",
+        "name": "SAN LUIS RIO COLORADO, SAN LUIS RIO COLORADO, SONORA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_34",
+        "clave": "34",
+        "name": "CIUDAD MIGUEL ALEMAN, CIUDAD MIGUEL ALEMAN, TAMAULIPAS.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_37",
+        "clave": "37",
+        "name": "CIUDAD HIDALGO, CIUDAD HIDALGO, CHIAPAS.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_38",
+        "clave": "38",
+        "name": "TAMPICO, TAMPICO, TAMAULIPAS.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_39",
+        "clave": "39",
+        "name": "TECATE, TECATE, BAJA CALIFORNIA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_40",
+        "clave": "40",
+        "name": "TIJUANA, TIJUANA, BAJA CALIFORNIA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_42",
+        "clave": "42",
+        "name": "TUXPAN, TUXPAN DE RODRIGUEZ CANO, VERACRUZ.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_43",
+        "clave": "43",
+        "name": "VERACRUZ, VERACRUZ, VERACRUZ.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_44",
+        "clave": "44",
+        "name": "CIUDAD ACU\u00d1A, CIUDAD ACU\u00d1A, COAHUILA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_46",
+        "clave": "46",
+        "name": "TORREON, TORREON, COAHUILA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_47",
+        "clave": "47",
+        "name": "AEROPUERTO INTERNACIONAL DE LA CIUDAD DE MEXICO,",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_48",
+        "clave": "48",
+        "name": "GUADALAJARA, TLACOMULCO DE ZU\u00d1IGA, JALISCO.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_50",
+        "clave": "50",
+        "name": "SONOYTA, SONOYTA, SONORA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_51",
+        "clave": "51",
+        "name": "LAZARO CARDENAS, LAZARO CARDENAS, MICHOACAN.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_52",
+        "clave": "52",
+        "name": "MONTERREY, GENERAL MARIANO ESCOBEDO, NUEVO LEON.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_53",
+        "clave": "53",
+        "name": "CANCUN, CANCUN, QUINTANA ROO.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_64",
+        "clave": "64",
+        "name": "QUER\u00c9TARO, EL MARQU\u00c9S Y COLON, QUER\u00c9TARO.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_65",
+        "clave": "65",
+        "name": "TOLUCA, TOLUCA, ESTADO DE MEXICO.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_67",
+        "clave": "67",
+        "name": "CHIHUAHUA, CHIHUAHUA, CHIHUAHUA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_73",
+        "clave": "73",
+        "name": "AGUASCALIENTES, AGUASCALIENTES, AGUASCALIENTES.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_75",
+        "clave": "75",
+        "name": "PUEBLA, HEROICA PUEBLA DE ZARAGOZA, PUEBLA.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_80",
+        "clave": "80",
+        "name": "COLOMBIA, COLOMBIA, NUEVO LEON.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_81",
+        "clave": "81",
+        "name": "ALTAMIRA, ALTAMIRA, TAMAULIPAS.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_82",
+        "clave": "82",
+        "name": "CIUDAD CAMARGO, CIUDAD CAMARGO, TAMAULIPAS.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_83",
+        "clave": "83",
+        "name": "DOS BOCAS, PARAISO, TABASCO.",
+        "from_date": "2017-01-01"
+    },
+    {
+        "id": "cfd_mx.aduana_84",
+        "clave": "84",
+        "name": "GUANAJUATO, SILAO, GUANAJUATO.",
+        "from_date": "2017-01-01"
+    }
+]

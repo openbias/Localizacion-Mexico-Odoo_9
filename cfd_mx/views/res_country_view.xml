@@ -39,7 +39,7 @@
             </field>
         </record>
         <record id="action_codigo_postal" model="ir.actions.act_window">
-            <field name="name">Catálogo Código Postal</field>
+            <field name="name">Código Postal</field>
             <field name="res_model">res.country.state.cp</field>
             <field name="type">ir.actions.act_window</field>
             <field name="view_type">tree</field>
@@ -49,7 +49,7 @@
         <menuitem
             action="action_codigo_postal"
             id="menu_codigo_postal"
-            parent="bias_base.menu_localizacion_mexico_root"
+            parent="bias_base.menu_catalogo_cfdi"
             groups="group_cfd_mx_user"            
             sequence="96" />
 
@@ -66,7 +66,7 @@
             </field>
         </record>
         <record id="action_municipio" model="ir.actions.act_window">
-            <field name="name">Catálogo Municipios SAT</field>
+            <field name="name">Municipios SAT</field>
             <field name="res_model">res.country.state.municipio</field>
             <field name="type">ir.actions.act_window</field>
             <field name="view_type">tree</field>
@@ -76,7 +76,7 @@
         <menuitem
             action="action_municipio"
             id="menu_municipio"
-            parent="bias_base.menu_localizacion_mexico_root"
+            parent="bias_base.menu_catalogo_cfdi"
             groups="group_cfd_mx_user"
             sequence="97" />
 
@@ -93,7 +93,7 @@
             </field>
         </record>
         <record id="action_ciudad" model="ir.actions.act_window">
-            <field name="name">Catálogo Ciudades SAT</field>
+            <field name="name">Ciudades SAT</field>
             <field name="res_model">res.country.state.ciudad</field>
             <field name="type">ir.actions.act_window</field>
             <field name="view_type">tree</field>
@@ -103,7 +103,7 @@
         <menuitem
             action="action_ciudad"
             id="menu_ciudad"
-            parent="bias_base.menu_localizacion_mexico_root"
+            parent="bias_base.menu_catalogo_cfdi"
             groups="group_cfd_mx_user"
             sequence="98" />
 

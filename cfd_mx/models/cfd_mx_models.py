@@ -16,157 +16,15 @@ class AltaCatalogosCFDI(models.TransientModel):
     _name = 'cf.mx.alta.catalogos.wizard'
     _description = 'Alta Catalogos CFDI'
 
-    def get_external_id(self, Data, model, state_id, Obj, obj_code, row):
-        obj_id = Obj.search([('clave_sat', '=', obj_code), ('state_id', '=', state_id.id )])
-        datas = Data.search([('model', '=', model), ('res_id', '=', obj_id.id), ('module', '=', '__export__')])
-        for data in datas:
-            return '%s.%s'%(data.module, data.name)
-        return None
-
-    def get_states_ids(self):
-        dict_states = {}
-        Data = self.env['ir.model.data']
-        Country = self.env.ref('base.mx')
-        States = self.env['res.country.state'].search([('country_id', '=', Country.id)])
-        for state in States :
-            datas = Data.search([('model', '=', 'res.country.state'), ('res_id', '=', state.id), ('module', '=', 'base')])
-            for data in datas:
-                dict_states[state.code] = '%s.%s'%(data.module, data.name)
-        return dict_states
-
-    def get_csv_datas(self, model):
-        fname = '/../data/%s.csv' % model
-        current_path = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))        
-        path =  current_path+fname
-        ifile  = open(path)
-        reader = csv.reader(ifile, delimiter=',', quotechar='"')
-        return reader
-
-    def action_load_municipio_ciudad(self, model):
-        dict_states = self.get_states_ids()
-        reader = self.get_csv_datas(model)
-        header = []
-        body = []
-        model_obj = self.env[model]
-        for indx, row in enumerate(reader):
-            if indx == 0:
-                header = row
-            else:
-                if row[2] in dict_states.keys():
-                    row[2] = dict_states.get(row[2])
-                body.append(row)
-        model_obj.with_context(noupdate=True).load(header, body)
-        cr = self._cr
-        cr.commit()
-        return True
-
-    def action_load_cp(self, model,reader):
-        dict_states = self.get_states_ids()
-        print "dict_states", dict_states
-        Data = self.env['ir.model.data']
-        Municipio = self.env['res.country.state.municipio']
-        Ciudad = self.env['res.country.state.ciudad']
-
-        header = []
-        body = []
-        model_obj = self.env[model]
-        for indx, row in enumerate(reader):
-            if indx == 0:
-                header = row
-            else:
-                state_id = self.env.ref(dict_states.get(row[2]))
-                row[2] = dict_states.get(row[2])
-                if row[3] and row[4]:
-                    municipio_id = self.get_external_id(Data, 'res.country.state.municipio', state_id, Municipio, row[3], row)
-                    ciudad_id = self.get_external_id(Data, 'res.country.state.ciudad', state_id, Ciudad, row[4], row)
-                    row[3] = municipio_id
-                    row[4] = ciudad_id
-                else:
-                    row[3] = None
-                    row[4] = None
-                body.append(row)
-        model_obj.with_context(noupdate=True).load(header, body)
-        cr = self._cr
-        cr.commit()
-        return True
-
-    def action_res_country_state_municipio(self, model):
-        self.action_load_municipio_ciudad(model)
-        return True
-
-    def action_res_country_state_ciudad(self, model):
-        self.action_load_municipio_ciudad(model)
-        return True
-
-    def action_res_country_state_cp_1(self, model_1):
-        model = model_1.replace('cp_1', 'cp')
-        reader = self.get_csv_datas(model_1)
-        self.action_load_cp(model,reader)
-        return True
-
-    def action_res_country_state_cp_2(self, model_1):
-        model = model_1.replace('cp_2', 'cp')
-        reader = self.get_csv_datas(model_1)
-        self.action_load_cp(model,reader)
-        return True
-
-    def action_res_country_state_cp_3(self, model_1):
-        model = model_1.replace('cp_3', 'cp')
-        reader = self.get_csv_datas(model_1)
-        self.action_load_cp(model,reader)
-        return True
-
-    def action_res_country_state_cp_4(self, model_1):
-        model = model_1.replace('cp_4', 'cp')
-        reader = self.get_csv_datas(model_1)
-        self.action_load_cp(model,reader)
-        return True
-
-    def action_load_data_path(self, model):
-        reader = self.get_csv_datas(model)
-        header = []
-        body = []
-        model_obj = self.env[model]
-        for indx, row in enumerate(reader):
-            if indx == 0:
-                header = row
-            else:
-                body.append(row)
-        r = model_obj.with_context(noupdate=True).load(header, body)
-        cr = self._cr
-        cr.commit()
-        return True
-
-    # @api.multi
-    # def action_alta_catalogos(self):
-    #     logging.info(' Inicia Alta Catalogos')
-    #     models = [
-    #         'cfd_mx.unidadesmedida',
-    #         'cfd_mx.prodserv',
-    #         # 'res.country.state.municipio',
-    #         # 'res.country.state.ciudad',
-    #         # 'res.country.state.cp_1',
-    #         # 'res.country.state.cp_2',
-    #         # 'res.country.state.cp_3',
-    #         # 'res.country.state.cp_4'
-    #     ]
-    #     for model in models:
-    #         model_name = model.replace('.', '_')
-    #         logging.info(' Model: -- %s'%model_name )
-    #         if hasattr(self, 'action_%s' % model_name):
-    #             getattr(self, 'action_%s' % model_name)(model)
-    #         else:
-    #             self.action_load_data_path(model)
-    #     logging.info('Fin Alta Catalogos')
-    #     return True
-
-
     @api.multi
     def action_alta_catalogos(self):
         logging.info(' Inicia Alta Catalogos')
         models = [
             'cfd_mx.unidadesmedida',
-            'cfd_mx.prodserv'
+            'cfd_mx.prodserv',
+            'res.country.state.municipio',
+            'res.country.state.ciudad',
+            'res.country.state.cp'
         ]
 
         registry = openerp.registry(self._cr.dbname)
@@ -175,7 +33,7 @@ class AltaCatalogosCFDI(models.TransientModel):
             logging.info(' Model: -- %s'%model_name )
 
             model_obj = self.env[model]
-            fname = '/../data/%s.json' % model
+            fname = '/../data/json/%s.json' % model
             current_path = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
             path =  current_path+fname
             jdatas = json.load(open(path))

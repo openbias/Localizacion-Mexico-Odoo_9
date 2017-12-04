@@ -37,7 +37,6 @@
         <!--
 
         -->
-
         <record id="account_invoices_mx" model="ir.actions.report.xml">
             <field name="paperformat_id" ref="cfd_mx.invoice_paperformat"/>
         </record>
@@ -48,6 +47,53 @@
 
 
     <data>
+
+        <template inherit_id="report.assets_common" id="report_cfd_mx">
+            <xpath expr="." position="inside">
+                <style rel="stylesheet" type="text/css">
+                    .o_table_nomina {}
+                    .company_address { font-size:10px; }
+                    .font_inv { font-size:11px;}
+                    .border_top { border-top: solid 1px #8F8F8F !important; }
+                    .event-table {width: 100%;}
+                    .table tr.rowA1.rowA1>th { border-bottom: 1px solid red; }
+                    .table tr.rowB2.rowB2>td { border-top-style: none !important; border-top: none !important; border-bottom: 1px solid #8F8F8F !important; }
+                    .table tfoot>tr.rowC2.rowC2>td { border-bottom: 1px solid blue; }
+                    .jumbotron, .panel, .carousel, section{ page-break-inside: avoid; }
+                    
+                    /* Wkhtmltopdf doesn't support very well the media-print CSS (depends on the version) */
+                    .hidden-print{ display: none; }
+                    .font_theme_color { color: #8F8F8F !important; }
+                    .bg_theme_color { background-color: #8F8F8F !important; color: #FFFFFF !important; }
+                    .borderless td, .borderless th { border: none; }
+                    #cfdi_conceptos {
+                        color: #000000 !important;
+                        tbody {
+                            color: #8F8F8F !important;
+                            tr:nth-child(odd) {
+                                background-color: rgba(184, 171, 180, 0.2) !important;
+                            }
+                            tr td {
+                                color: #000000 !important;
+                                border-top: none !important;
+                            }
+                        }
+                        tfoot {
+
+                        }
+                    }
+
+                    #info {
+                        color: #000000 !important;
+                        td {
+                            color: #000000 !important;
+                            text-align: left;
+                        }
+                    }
+
+                </style>
+            </xpath>
+        </template>
 
         <template id="report_invoice_mx_document">
             <t t-call="report.html_container">
@@ -250,18 +296,31 @@
                             </tr>
                         </table>
                     </div>
+                    <t t-if="o.uuid_relacionado_id">
+                        <br />
+                        <div class="row font_inv">
+                            <div class="col-xs-12 bg_theme_color text-left">
+                                <strong>DOCUMENTO RELACIONADO</strong>
+                            </div>
+                            <div class="col-xs-6 bg_theme_color text-left"><strong>Tipo Relación</strong></div>
+                            <div class="col-xs-6 bg_theme_color text-left"><strong>UUID Relacionado</strong></div>
+
+                            <div class="col-xs-6 text-left"><span t-field="o.tiporelacion_id" /> </div>
+                            <div class="col-xs-6 text-left"><span t-field="o.uuid_egreso" /> </div>
+                        </div>
+                    </t>
                     <br />
                     <div class="row font_inv">
                         <div class="col-xs-12 bg_theme_color text-left">
                             <strong>TIMBRE FISCAL</strong>
                         </div>
-                        <div class="col-xs-3 bg_theme_color text-left"><strong>PAC</strong></div>
-                        <div class="col-xs-3 bg_theme_color text-left"><strong>Folios Fiscal</strong></div>
+                        <div class="col-xs-2 bg_theme_color text-left"><strong>PAC</strong></div>
+                        <div class="col-xs-4 bg_theme_color text-left"><strong>Folios Fiscal</strong></div>
                         <div class="col-xs-3 bg_theme_color text-left"><strong>No. Certificado SAT</strong></div>
                         <div class="col-xs-3 bg_theme_color text-left"><strong>Fecha y Hora de Certificación</strong></div>
                         
-                        <div class="col-xs-3 text-left"><span t-field="o.company_id.cfd_mx_pac" /> </div>
-                        <div class="col-xs-3 text-left"><span t-field="o.uuid" /> </div>
+                        <div class="col-xs-2 text-left"><span t-field="o.company_id.cfd_mx_pac" /> </div>
+                        <div class="col-xs-4 text-left"><span t-field="o.uuid" /> </div>
                         <div class="col-xs-3 text-left"><span t-field="o.certificado_sat" /></div>
                         <div class="col-xs-3 text-left"><span t-field="o.fecha_timbrado"  /></div>
                     </div>
@@ -276,7 +335,7 @@
                                     <span>Sello Digital del Emisor</span>
                                 </div>
                                 <div class="col-xs-12 text-left">
-                                    <code style="font-size: 6px:"><span style="font-size: 6px:" t-field="o.sello" /></code>
+                                    <pre style="font-size:6px; overflow-x: hidden !important; display: inline-flex;" t-field="o.sello" ></pre>
                                 </div>
                             </div>
                         </div>
@@ -286,7 +345,7 @@
                                     <span>Sello Digital del SAT</span>
                                 </div>
                                 <div class="col-xs-12 text-left">
-                                    <code style="font-size: 6px:" ><span style="font-size: 6px:" t-field="o.sello_sat" /></code>
+                                    <pre style="font-size:6px; overflow-x: hidden !important; display: inline-flex;" t-field="o.sello_sat" ></pre>
                                 </div>
                             </div>
                         </div>
@@ -296,7 +355,7 @@
                                     <span>Cadena Original</span>
                                 </div>
                                 <div class="col-xs-12 text-left">
-                                    <code style="font-size: 6px:" ><span style="font-size: 6px:" t-field="o.cadena_sat" /></code>
+                                    <pre style="font-size:6px; overflow-x: hidden !important; display: inline-flex;" t-field="o.cadena_sat" ></pre>
                                 </div>
                             </div>
                         </div>
