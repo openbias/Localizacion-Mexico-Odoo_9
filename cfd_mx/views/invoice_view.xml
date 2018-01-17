@@ -132,9 +132,9 @@
             <field name="inherit_id" ref="account.invoice_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='invoice_line_ids']/tree/field[@name='name']" position="after">
-                    <field name="price_subtotal_sat" />
-                    <field name="price_tax_sat" />
-                    <field name="price_discount_sat" />
+                    <field name="price_subtotal_sat" invisible="1" />
+                    <field name="price_tax_sat" invisible="1" />
+                    <field name="price_discount_sat" invisible="1" />
                 </xpath>
             </field>
         </record>

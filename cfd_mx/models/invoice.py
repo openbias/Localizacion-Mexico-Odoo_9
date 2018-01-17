@@ -339,7 +339,6 @@ class AccountInvoice(models.Model):
         message = self.action_validate_cfdi()
 
         res = self.with_context({'type': 'invoice'}).stamp(self)
-        print "resssssssssssssss", res
         if res.get('message'):
             message = res['message']
         else:
