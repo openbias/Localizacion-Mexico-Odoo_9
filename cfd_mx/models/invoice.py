@@ -41,16 +41,14 @@ class AccountInvoiceLine(models.Model):
         'invoice_id.date_invoice')
     def _compute_price_sat(self):
         currency = self.invoice_id and self.invoice_id.currency_id or None
-        price_subtotal_sat = self.price_unit # * self.quantity
+        # Calculo de Impuestos.
+        price_unit = self.price_unit * (1 - (self.discount or 0.0) / 100.0)
+        taxes = self.invoice_line_tax_ids.compute_all(price_unit, self.currency_id, self.quantity, self.product_id, self.partner_id)
+        price_subtotal_sat = taxes.get('total_excluded', 0.00) # * self.quantity
         discount =  ((self.discount or 0.0) / 100.0) * price_subtotal_sat
-        price = (price_subtotal_sat - discount)
-        taxes = {}
-        if self.invoice_line_tax_ids:
-            taxes = self.invoice_line_tax_ids.compute_all(price, self.currency_id, self.quantity, self.product_id, self.partner_id)
-        
         self.price_tax_sat = taxes.get('total_included', 0.00) - taxes.get('total_excluded', 0.00)
-        self.price_subtotal_sat = self.price_unit * self.quantity
-        self.price_discount_sat = discount * self.quantity
+        self.price_subtotal_sat = taxes.get('total_excluded', 0.00)
+        self.price_discount_sat = discount # * self.quantity
 
     price_subtotal_sat = fields.Monetary(string='Amount (SAT)', readonly=True, compute='_compute_price_sat', default=0.00)
     price_tax_sat = fields.Monetary(string='Tax (SAT)', readonly=True, compute='_compute_price_sat', default=0.00)
@@ -270,16 +268,6 @@ class AccountInvoice(models.Model):
         return recs.name_get()
    
     # Crea xml
-    # @api.multi
-    # def invoice_validate(self):
-    #     print "mmmmmmmmmmmmmmmmm"
-    #     for invoice in self:
-    #         self.action_write_date_invoice_cfdi(invoice.id)
-    #     for invoice in self:
-    #         invoice.action_create_cfd()
-    #     res = super(AccountInvoice, self).invoice_validate()
-    #     return res
-
     def action_write_date_invoice_cfdi(self, inv_id):
         dtz = False
         if not self.date_invoice_cfdi:

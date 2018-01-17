@@ -97,8 +97,10 @@ class AccountCfdi(models.Model):
                 'Cantidad': '%s'%(round(line.quantity, dp_account)),
                 'ClaveUnidad': line.uom_id and line.uom_id.clave_unidadesmedida_id and line.uom_id.clave_unidadesmedida_id.clave or '',
                 'Unidad': line.uom_id and line.uom_id.name or '',
-                'ValorUnitario': '%.2f'%(round(line.price_unit, dp_product)),
-                'Importe': '%.2f'%( line.price_subtotal_sat ),
+                'ValorUnitario': '%.2f'%( line.price_subtotal_sat / round(line.quantity, dp_account)),
+                'Importe': '%.2f'%( line.price_subtotal_sat ), # '%.2f'%( line.price_subtotal_sat * round(line.quantity, dp_account) ),
+                # 'ValorUnitario': '%.2f'%(round(line.price_unit, dp_product)),
+                # 'Importe': '%.2f'%( line.price_subtotal_sat ),
                 'Descuento': '%.2f'%( line.price_discount_sat ),
                 'Impuestos': {
                     'Traslado': [],
@@ -113,6 +115,7 @@ class AccountCfdi(models.Model):
             # Calculo de Impuestos.
             price_unit = line.price_unit * (1 - (line.discount or 0.0) / 100.0)
             taxes = line.invoice_line_tax_ids.compute_all(price_unit, self.currency_id, line.quantity, line.product_id, self.partner_id)['taxes']
+
             for tax in taxes:
                 tax_id = tax_obj.browse(tax.get('id'))
                 tax_group = tax_id.tax_group_id
